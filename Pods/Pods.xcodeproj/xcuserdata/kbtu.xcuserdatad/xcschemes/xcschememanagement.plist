@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SchemeUserState</key>
+	<dict>
+		<key>Cartography.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>KFSwiftImageLoader.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>MKDropdownMenu.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-ZhelAyaq.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>REFrostedViewController.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>6CC815F0305FDBCF7FB94C0FD421B297</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>809DE3800084EF22BFD35DFAB1533AC6</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>8B4F7DB88714CF6902BEF630A1EDA624</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>935868B02D678B72AAD39DDD2E0FCF7D</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>C3A04698AAE4D6124C20602D622956E5</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>

@@ -1,0 +1,447 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		09E5193BC0EA56614234417B /* Pods_ZhelAyaq.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B607A3B4B31C6A1149B88506 /* Pods_ZhelAyaq.framework */; };
+		6C19638E1D45E42A002B4C8C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C19638D1D45E42A002B4C8C /* AppDelegate.swift */; };
+		6C1963901D45E42A002B4C8C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C19638F1D45E42A002B4C8C /* ViewController.swift */; };
+		6C1963931D45E42A002B4C8C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6C1963911D45E42A002B4C8C /* Main.storyboard */; };
+		6C1963951D45E42A002B4C8C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6C1963941D45E42A002B4C8C /* Assets.xcassets */; };
+		6C1963981D45E42A002B4C8C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6C1963961D45E42A002B4C8C /* LaunchScreen.storyboard */; };
+		6C1963A61D45EFB3002B4C8C /* Sneak.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C1963A51D45EFB3002B4C8C /* Sneak.swift */; };
+		6C1963A81D45F031002B4C8C /* Producer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C1963A71D45F031002B4C8C /* Producer.swift */; };
+		6C1963AA1D45F09B002B4C8C /* ProducerCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C1963A91D45F09B002B4C8C /* ProducerCollectionViewCell.swift */; };
+		6C1963AC1D45F46A002B4C8C /* SneakCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C1963AB1D45F46A002B4C8C /* SneakCollectionViewCell.swift */; };
+		6C1963AE1D45F79B002B4C8C /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C1963AD1D45F79B002B4C8C /* MenuViewController.swift */; };
+		6CE55BC01D475CA90081ECD3 /* DropdownMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CE55BBF1D475CA90081ECD3 /* DropdownMenu.swift */; };
+		6CF00CE91D51F2FB00A6581E /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CF00CE81D51F2FB00A6581E /* LoginViewController.swift */; };
+		6CF30E1C1D549B8700420430 /* AddingSneakViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CF30E1B1D549B8700420430 /* AddingSneakViewController.swift */; };
+		6CF6D0111D61CF39002E0E6C /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CF6D0101D61CF38002E0E6C /* Post.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1B428D4B3BA7E7C74C56A04E /* Pods-ZhelAyaq.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZhelAyaq.release.xcconfig"; path = "Pods/Target Support Files/Pods-ZhelAyaq/Pods-ZhelAyaq.release.xcconfig"; sourceTree = "<group>"; };
+		6C19638A1D45E42A002B4C8C /* ZhelAyaq.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZhelAyaq.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6C19638D1D45E42A002B4C8C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6C19638F1D45E42A002B4C8C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		6C1963921D45E42A002B4C8C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6C1963941D45E42A002B4C8C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6C1963971D45E42A002B4C8C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6C1963991D45E42A002B4C8C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6C1963A51D45EFB3002B4C8C /* Sneak.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Sneak.swift; sourceTree = "<group>"; };
+		6C1963A71D45F031002B4C8C /* Producer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Producer.swift; sourceTree = "<group>"; };
+		6C1963A91D45F09B002B4C8C /* ProducerCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProducerCollectionViewCell.swift; sourceTree = "<group>"; };
+		6C1963AB1D45F46A002B4C8C /* SneakCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SneakCollectionViewCell.swift; sourceTree = "<group>"; };
+		6C1963AD1D45F79B002B4C8C /* MenuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
+		6CE55BBF1D475CA90081ECD3 /* DropdownMenu.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DropdownMenu.swift; sourceTree = "<group>"; };
+		6CF00CE81D51F2FB00A6581E /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		6CF30E1B1D549B8700420430 /* AddingSneakViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddingSneakViewController.swift; sourceTree = "<group>"; };
+		6CF6D0101D61CF38002E0E6C /* Post.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
+		B607A3B4B31C6A1149B88506 /* Pods_ZhelAyaq.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZhelAyaq.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F4D377252CEFA962E140A2F5 /* Pods-ZhelAyaq.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZhelAyaq.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ZhelAyaq/Pods-ZhelAyaq.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6C1963871D45E42A002B4C8C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				09E5193BC0EA56614234417B /* Pods_ZhelAyaq.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6C1963811D45E42A002B4C8C = {
+			isa = PBXGroup;
+			children = (
+				6C19638C1D45E42A002B4C8C /* ZhelAyaq */,
+				6C19638B1D45E42A002B4C8C /* Products */,
+				99A0AC97E458B06F4F83B226 /* Pods */,
+				C2CAE27420FBE5F7B8BC8AB7 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		6C19638B1D45E42A002B4C8C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6C19638A1D45E42A002B4C8C /* ZhelAyaq.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6C19638C1D45E42A002B4C8C /* ZhelAyaq */ = {
+			isa = PBXGroup;
+			children = (
+				6C1963A41D45E455002B4C8C /* Assets */,
+				6C1963A31D45E44F002B4C8C /* Extensions */,
+				6C1963A21D45E44A002B4C8C /* Views */,
+				6C1963A01D45E439002B4C8C /* Models */,
+				6C19639F1D45E430002B4C8C /* Controllers */,
+				6C1963991D45E42A002B4C8C /* Info.plist */,
+			);
+			path = ZhelAyaq;
+			sourceTree = "<group>";
+		};
+		6C19639F1D45E430002B4C8C /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				6C19638D1D45E42A002B4C8C /* AppDelegate.swift */,
+				6C19638F1D45E42A002B4C8C /* ViewController.swift */,
+				6CF00CE81D51F2FB00A6581E /* LoginViewController.swift */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		6C1963A01D45E439002B4C8C /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				6C1963A51D45EFB3002B4C8C /* Sneak.swift */,
+				6C1963A71D45F031002B4C8C /* Producer.swift */,
+				6CF6D0101D61CF38002E0E6C /* Post.swift */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		6C1963A21D45E44A002B4C8C /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				6C1963A91D45F09B002B4C8C /* ProducerCollectionViewCell.swift */,
+				6C1963AB1D45F46A002B4C8C /* SneakCollectionViewCell.swift */,
+				6C1963AD1D45F79B002B4C8C /* MenuViewController.swift */,
+				6CE55BBF1D475CA90081ECD3 /* DropdownMenu.swift */,
+				6CF30E1B1D549B8700420430 /* AddingSneakViewController.swift */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		6C1963A31D45E44F002B4C8C /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Extensions;
+			sourceTree = "<group>";
+		};
+		6C1963A41D45E455002B4C8C /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				6C1963911D45E42A002B4C8C /* Main.storyboard */,
+				6C1963941D45E42A002B4C8C /* Assets.xcassets */,
+				6C1963961D45E42A002B4C8C /* LaunchScreen.storyboard */,
+			);
+			name = Assets;
+			sourceTree = "<group>";
+		};
+		99A0AC97E458B06F4F83B226 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F4D377252CEFA962E140A2F5 /* Pods-ZhelAyaq.debug.xcconfig */,
+				1B428D4B3BA7E7C74C56A04E /* Pods-ZhelAyaq.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		C2CAE27420FBE5F7B8BC8AB7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B607A3B4B31C6A1149B88506 /* Pods_ZhelAyaq.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6C1963891D45E42A002B4C8C /* ZhelAyaq */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6C19639C1D45E42A002B4C8C /* Build configuration list for PBXNativeTarget "ZhelAyaq" */;
+			buildPhases = (
+				89D43A24D64325C3E1222609 /* [CP] Check Pods Manifest.lock */,
+				6C1963861D45E42A002B4C8C /* Sources */,
+				6C1963871D45E42A002B4C8C /* Frameworks */,
+				6C1963881D45E42A002B4C8C /* Resources */,
+				5A1D103079923518AE22B011 /* [CP] Embed Pods Frameworks */,
+				CB3D7F23A1ECD0904E2A1B13 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZhelAyaq;
+			productName = ZhelAyaq;
+			productReference = 6C19638A1D45E42A002B4C8C /* ZhelAyaq.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6C1963821D45E42A002B4C8C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = Baga;
+				TargetAttributes = {
+					6C1963891D45E42A002B4C8C = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 6C1963851D45E42A002B4C8C /* Build configuration list for PBXProject "ZhelAyaq" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6C1963811D45E42A002B4C8C;
+			productRefGroup = 6C19638B1D45E42A002B4C8C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6C1963891D45E42A002B4C8C /* ZhelAyaq */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6C1963881D45E42A002B4C8C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6C1963981D45E42A002B4C8C /* LaunchScreen.storyboard in Resources */,
+				6C1963951D45E42A002B4C8C /* Assets.xcassets in Resources */,
+				6C1963931D45E42A002B4C8C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5A1D103079923518AE22B011 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ZhelAyaq/Pods-ZhelAyaq-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		89D43A24D64325C3E1222609 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		CB3D7F23A1ECD0904E2A1B13 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ZhelAyaq/Pods-ZhelAyaq-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6C1963861D45E42A002B4C8C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6CF00CE91D51F2FB00A6581E /* LoginViewController.swift in Sources */,
+				6CF6D0111D61CF39002E0E6C /* Post.swift in Sources */,
+				6C1963AA1D45F09B002B4C8C /* ProducerCollectionViewCell.swift in Sources */,
+				6C1963901D45E42A002B4C8C /* ViewController.swift in Sources */,
+				6C1963A81D45F031002B4C8C /* Producer.swift in Sources */,
+				6C1963AE1D45F79B002B4C8C /* MenuViewController.swift in Sources */,
+				6C1963AC1D45F46A002B4C8C /* SneakCollectionViewCell.swift in Sources */,
+				6CF30E1C1D549B8700420430 /* AddingSneakViewController.swift in Sources */,
+				6C19638E1D45E42A002B4C8C /* AppDelegate.swift in Sources */,
+				6C1963A61D45EFB3002B4C8C /* Sneak.swift in Sources */,
+				6CE55BC01D475CA90081ECD3 /* DropdownMenu.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		6C1963911D45E42A002B4C8C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6C1963921D45E42A002B4C8C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6C1963961D45E42A002B4C8C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6C1963971D45E42A002B4C8C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6C19639A1D45E42A002B4C8C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6C19639B1D45E42A002B4C8C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6C19639D1D45E42A002B4C8C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F4D377252CEFA962E140A2F5 /* Pods-ZhelAyaq.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ZhelAyaq/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = bagagroup.ZhelAyaq;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		6C19639E1D45E42A002B4C8C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1B428D4B3BA7E7C74C56A04E /* Pods-ZhelAyaq.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ZhelAyaq/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = bagagroup.ZhelAyaq;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6C1963851D45E42A002B4C8C /* Build configuration list for PBXProject "ZhelAyaq" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6C19639A1D45E42A002B4C8C /* Debug */,
+				6C19639B1D45E42A002B4C8C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6C19639C1D45E42A002B4C8C /* Build configuration list for PBXNativeTarget "ZhelAyaq" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6C19639D1D45E42A002B4C8C /* Debug */,
+				6C19639E1D45E42A002B4C8C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6C1963821D45E42A002B4C8C /* Project object */;
+}

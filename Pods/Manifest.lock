@@ -1,0 +1,24 @@
+PODS:
+  - Backendless (3.0.28)
+  - Cartography (0.6.0)
+  - KFSwiftImageLoader (2.0.1)
+  - MKDropdownMenu (1.1)
+  - REFrostedViewController (2.4.8)
+
+DEPENDENCIES:
+  - Backendless
+  - Cartography
+  - KFSwiftImageLoader (~> 2.0)
+  - MKDropdownMenu
+  - REFrostedViewController (~> 2.4)
+
+SPEC CHECKSUMS:
+  Backendless: d906a34cac38dbdbfaed55c8c06689eefe6b8873
+  Cartography: 70af183a248547694a8cfaa6b989cb7e04589985
+  KFSwiftImageLoader: a2b8a33a89116c767e7af8d2c109e8c483037b19
+  MKDropdownMenu: 244eccf44965d52822395da7bdc7fb5ecd7d297c
+  REFrostedViewController: a893b4979ba1f200c547aef9ff4c3fd5a18f5923
+
+PODFILE CHECKSUM: ac8b9adf6f089bd4f025adc15737fad5fd20ae32
+
+COCOAPODS: 1.0.1
