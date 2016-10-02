@@ -23,7 +23,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     
     var window: UIWindow?
 
-//REFrostedViewController application
+//REFrostedViewController
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
         
         let homeViewController = UINavigationController(rootViewController: ViewController()) //создания navigationBar
