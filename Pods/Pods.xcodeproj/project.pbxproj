@@ -7,92 +7,92 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0729DED1737DCDB309394E0B59393F37 /* Dimension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E4F376C9A406DF7F61A3AB62F0F7D61 /* Dimension.swift */; };
-		0D9CDCCAFBC47011E6AB8904C6E4C89D /* Pods-ZhelAyaq-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F7D49EC357E695794DC1EACC5D05A997 /* Pods-ZhelAyaq-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		0FA4EC50DDAEEEDDC6E5940ED9839092 /* REFrostedViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 2DAC4413F1B6C83A5CD47844B139997A /* REFrostedViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		138D07604F79137B7CA06152C2D1BF1E /* UIImage+REFrostedViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = A00DE3F30C9482F6C3C47097108CEADD /* UIImage+REFrostedViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		1999C6023F30ABDB3712CC48DEFE507B /* KFImageCacheManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 574760C5630BB04A000EE3622B911D10 /* KFImageCacheManager.swift */; };
-		1C5BB07932D041836F362CCC03CD2F7A /* WKInterfaceImageExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECA38BF2A9FCE848E2B3E6F4BFE901E6 /* WKInterfaceImageExtensions.swift */; };
-		2057FF930EF0F28E7AD548BF23BE78EE /* Edge.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8274EFACD55CE8F51F1CA55ED4C8F9A /* Edge.swift */; };
-		25065D4BE7FF236A05F2E1DF7085C589 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9631CE63B2497EBDBE787AB5B2AEEEEF /* Foundation.framework */; };
-		28515F6FFAA0E2F9591A862D532F33AC /* Compound.swift in Sources */ = {isa = PBXBuildFile; fileRef = 748764BEC591E0C8967F7417423556F4 /* Compound.swift */; };
-		354EA0E842569755A33BD2A3876BBDDD /* UIImageViewExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95E3CFC510F75B8D78E654D4342166A1 /* UIImageViewExtensions.swift */; };
-		369CA2AACEED2517C99D77D7700DFCEA /* Distribute.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0776B25C1E7D541B16A5FFB080A8FBC /* Distribute.swift */; };
-		3A0BD0F1056BE4E611A3D11F54922754 /* REFrostedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 74DC75952C26585155CD990C735B1E7D /* REFrostedViewController.m */; };
-		3A89FCAA10F5D57366BBBDA2D6E11388 /* KFSwiftImageLoader-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 022A9417735BEF696D5E5AB1BA312E21 /* KFSwiftImageLoader-dummy.m */; };
-		4149026F7C8D1EFB7B884A555C342BA9 /* MKDropdownMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = C79F01FDA27B4A28FF5059E7BC2AA599 /* MKDropdownMenu.m */; };
-		452C09D0CAC1F8286ABA1CE076033B23 /* Context.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8F1D493CCC97589690E5175EB3B35AC /* Context.swift */; };
-		47CF1C934F54A080A17B4C7D8884EF7F /* MKAnnotationViewExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F01434159E57A1276EFB5FBE516C5037 /* MKAnnotationViewExtensions.swift */; };
-		48ADE3FB3F30FCA5893083351449DA98 /* ViewUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE11784C9FF681EFBA916C924AED7EDA /* ViewUtils.swift */; };
-		4A589B5037C5D4C18B1ADEC9E11A5BD1 /* REFrostedViewController-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 65824F60C6A1A3C4064C7CA81D5BCA33 /* REFrostedViewController-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		5044CA9F7CCBB02F3C294106022FCF9F /* Edges.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1786212543A25918B0790AF734483B0A /* Edges.swift */; };
-		5603E538B9A4CB496E2821B33088BE00 /* MKDropdownMenu-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FFDF390651CECD65ED4DD59AA398976 /* MKDropdownMenu-dummy.m */; };
-		584B68A7069844742AEF67ED9311FF50 /* Align.swift in Sources */ = {isa = PBXBuildFile; fileRef = C480CF4264474EFD421E1D890D0FE230 /* Align.swift */; };
-		5854D47B11BD645BD96691754C9AB71B /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B3618D65E145F1C60B0296063D4DE0B /* Accelerate.framework */; };
-		58E86813FE0E5EA4ACA2ACE3FF8E7AA3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9631CE63B2497EBDBE787AB5B2AEEEEF /* Foundation.framework */; };
-		5BE9F17C9769C825EB6A73E59DDA83F9 /* UIImage+REFrostedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F9B7C70052AF2FAAE043449666B95E0B /* UIImage+REFrostedViewController.m */; };
-		5C5641E515AD28631B0D2B15701245BE /* UIViewController+REFrostedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 616AABD9AB4A612AD8718FCE4FF28AEE /* UIViewController+REFrostedViewController.m */; };
-		6A5126306036117BBD3550566880BFF4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9631CE63B2497EBDBE787AB5B2AEEEEF /* Foundation.framework */; };
-		731B8D3D8F206DDEE6F1FD7AA818252A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9631CE63B2497EBDBE787AB5B2AEEEEF /* Foundation.framework */; };
-		7CD04D81B5ED213A105DFC517187EB87 /* Expression.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CEA39529BE5C3157D86339FF4CC28FC /* Expression.swift */; };
-		81BE7777790FBC9A6A7936B307CB033E /* RECommonFunctions.m in Sources */ = {isa = PBXBuildFile; fileRef = E579B648CE3101F39F463FB8BB7AACCC /* RECommonFunctions.m */; };
-		8378B61D28075525380201114F6E4582 /* LayoutProxy.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6B10861F90960D51FDA504C49B5DD81 /* LayoutProxy.swift */; };
-		873611321E560B21D6695308DA9BF90B /* REFrostedContainerViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = B0DD5118B75A0D3E0C352F330DC950EC /* REFrostedContainerViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8BCBC45470B93DA7AC24363C44BE61B2 /* UIViewController+REFrostedViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 171D9E2A6410D69777141FC60CE79D24 /* UIViewController+REFrostedViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		920FB67BAEE99B3247733AB5CEACA333 /* Pods-ZhelAyaq-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 215AEE0E66C7BEAD504FA86C29C38596 /* Pods-ZhelAyaq-dummy.m */; };
-		9356F4F57A8A8E1661B7D5188BD8FE22 /* REFrostedViewController-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7369352A7886BFF09CB8738E3FA37FD3 /* REFrostedViewController-dummy.m */; };
-		936B0925C2F9180935C72410630A1118 /* UIButtonExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92EC8AA6317AD54E8CB4D7AD765BA36F /* UIButtonExtensions.swift */; };
-		A33E78335A9459EC83327D52001569C9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9631CE63B2497EBDBE787AB5B2AEEEEF /* Foundation.framework */; };
-		B23E3B878363F72D1E874E46EB62FA7F /* Size.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47842C7D4F3B2EE9FCB412DBE595978F /* Size.swift */; };
-		B90891688A088BC37455234028C2E993 /* Cartography-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C35FE2AC95518BB8DED0FEBB1F24079A /* Cartography-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		BE2FC20F5EDBAE658F688978AB12C279 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F93488CB6A4DF7A6DEDF526CB9A0E1FB /* Extensions.swift */; };
-		C3649839064E53A4BF767D2EF29651EF /* Priority.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F410953B1F926D02FD0AF308014EBB0 /* Priority.swift */; };
-		C636A60D123212029DF6B3EB864B33FF /* MKDropdownMenu.h in Headers */ = {isa = PBXBuildFile; fileRef = D4FDF61088B3DA23800028B25906C0D1 /* MKDropdownMenu.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D2C9087C6581055C25D5559F934AF65B /* Constrain.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0A959B8CC93766960E1F52244AFBD5C /* Constrain.swift */; };
-		D3C01862D88692FA2E85A2D84345982B /* Point.swift in Sources */ = {isa = PBXBuildFile; fileRef = 733948DCA7FECF2D55DA6C824E32019C /* Point.swift */; };
-		D56BD3B0ACF32790F3EF43EA3DB08016 /* Cartography-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E256D3572E333907E009929E0C802423 /* Cartography-dummy.m */; };
-		D651B314EF7555E8FA582225DDDC2F28 /* RECommonFunctions.h in Headers */ = {isa = PBXBuildFile; fileRef = CCD34AD3DF19C86FC634A4CF99D9B2A5 /* RECommonFunctions.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D95BD1479563947AA17CFDC0877B6AEE /* REFrostedContainerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B287F2E923A64838EB082E0EA680C30 /* REFrostedContainerViewController.m */; };
-		DF1582EBEC25A5B86945504B1AB946BD /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1FA155FAD2B4A1D3E0A07D3D02154CBA /* QuartzCore.framework */; };
-		E02B952C17DF5922AD93FFDD64D878A7 /* UIView+REFrostedViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = FAFAE3EEE6CA199071FB3FFE4BD7FF1E /* UIView+REFrostedViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E1451AA498D7B41C4E049F5D9027B4A7 /* ConstraintGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BB2802DD0687C276DC34D7136A71CBC /* ConstraintGroup.swift */; };
-		E9EB979120769BE93B541078F9D7E622 /* KFSwiftImageLoader-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 81725C0C0D32D5A05E50C04AE808AA04 /* KFSwiftImageLoader-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		EB9E85B0CE6A53DCBDE040A716B5DBF8 /* Property.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CC17A250FBA674B4DCAA9485B728AA8 /* Property.swift */; };
-		ECEC10A43290562877B38F0526A8749D /* UIView+REFrostedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 24B548A54FD0A1FADB80A9A28542B5B2 /* UIView+REFrostedViewController.m */; };
-		EE94E3F06DA2F096BA43F0679567DC4B /* Coefficients.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D8C6DF1A007B4F0FDE5B9DCC0B2A3C8 /* Coefficients.swift */; };
-		F469BC9885602957FCB73DD39B5B92B0 /* Constraint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9748113885F39675BB4C5346A81CAA8E /* Constraint.swift */; };
-		F95ADCA0B85C6C0640372D3EFBBF1AD6 /* View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47FA158A288C5D638EFEAE5645C276CB /* View.swift */; };
-		FA0848667998514D1C3A40D077A0F83D /* MKDropdownMenu-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 28EA6608F981FA3A629D28522D1554B4 /* MKDropdownMenu-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		018C195654210F5A8B8913B474BDB3BA /* UIImage+REFrostedViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = A00DE3F30C9482F6C3C47097108CEADD /* UIImage+REFrostedViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0207C021AA09FBDEBCDC66A202AD67BE /* ConstraintGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BB2802DD0687C276DC34D7136A71CBC /* ConstraintGroup.swift */; };
+		07A765C22A2AAD40DD6945D0A816FDD4 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F93488CB6A4DF7A6DEDF526CB9A0E1FB /* Extensions.swift */; };
+		0B04A4B3EF265BFD1AC144CB14AC9923 /* View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47FA158A288C5D638EFEAE5645C276CB /* View.swift */; };
+		178D295F59310D1446E8E17AEF879C8A /* Dimension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E4F376C9A406DF7F61A3AB62F0F7D61 /* Dimension.swift */; };
+		18F6441C173652E34DCEC7546592D88E /* Pods-ZhelAyaq-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F7D49EC357E695794DC1EACC5D05A997 /* Pods-ZhelAyaq-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1B70FF297C2872C72219E1CBDA38B299 /* UIView+REFrostedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 24B548A54FD0A1FADB80A9A28542B5B2 /* UIView+REFrostedViewController.m */; };
+		1C94F80B85EDBAFCF8E866C3E6B06436 /* REFrostedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 74DC75952C26585155CD990C735B1E7D /* REFrostedViewController.m */; };
+		209D333298FAF7214F4578B6F4DA5E39 /* REFrostedViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 2DAC4413F1B6C83A5CD47844B139997A /* REFrostedViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		21C1351DE5822C393AFACE2505E40B6D /* KFSwiftImageLoader-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 81725C0C0D32D5A05E50C04AE808AA04 /* KFSwiftImageLoader-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		31D46009D0751ADC268B73C0217A1362 /* UIImageViewExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95E3CFC510F75B8D78E654D4342166A1 /* UIImageViewExtensions.swift */; };
+		353718D35C43DA41D81445EAC1DF642C /* Size.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47842C7D4F3B2EE9FCB412DBE595978F /* Size.swift */; };
+		3A71EA2BBE8AD0D8099CA36F8BA9C48B /* Pods-ZhelAyaq-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 215AEE0E66C7BEAD504FA86C29C38596 /* Pods-ZhelAyaq-dummy.m */; };
+		3F5C5D3D20F32204DDBBC5A56207C933 /* Constrain.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0A959B8CC93766960E1F52244AFBD5C /* Constrain.swift */; };
+		407440C5216AD13499D01DC3B72860CC /* MKDropdownMenu.h in Headers */ = {isa = PBXBuildFile; fileRef = D4FDF61088B3DA23800028B25906C0D1 /* MKDropdownMenu.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4B64A31FBA983F0A9FDEB6D0B52DB840 /* RECommonFunctions.h in Headers */ = {isa = PBXBuildFile; fileRef = CCD34AD3DF19C86FC634A4CF99D9B2A5 /* RECommonFunctions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4B928BA447B8EF57B570E4926DABD652 /* MKDropdownMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = C79F01FDA27B4A28FF5059E7BC2AA599 /* MKDropdownMenu.m */; };
+		540EAEF46E49A0FF9FFEAB11FA506F68 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E448886F539D1901165DB8CA98B53190 /* Foundation.framework */; };
+		55C6FBA1626A06344D3B789C7D313E19 /* UIView+REFrostedViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = FAFAE3EEE6CA199071FB3FFE4BD7FF1E /* UIView+REFrostedViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5793FE79B64B61A1A637F3CFC3CC8B9F /* REFrostedViewController-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7369352A7886BFF09CB8738E3FA37FD3 /* REFrostedViewController-dummy.m */; };
+		59EE4F693665FBA6AA9B99E5439DF952 /* Distribute.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0776B25C1E7D541B16A5FFB080A8FBC /* Distribute.swift */; };
+		5F0D798D15CF2BA015F044DBA2AF9166 /* Cartography-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E256D3572E333907E009929E0C802423 /* Cartography-dummy.m */; };
+		63ED7BE2815EBF3397DEED5CAF8A78A9 /* MKAnnotationViewExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F01434159E57A1276EFB5FBE516C5037 /* MKAnnotationViewExtensions.swift */; };
+		64B24CDF548C208160AA01AC8898A008 /* Compound.swift in Sources */ = {isa = PBXBuildFile; fileRef = 748764BEC591E0C8967F7417423556F4 /* Compound.swift */; };
+		66D2F6C745AA0D5B4FDD09D0FF990E6D /* Property.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CC17A250FBA674B4DCAA9485B728AA8 /* Property.swift */; };
+		67B2403BD059C3BF73E8080D5643CE93 /* KFImageCacheManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 574760C5630BB04A000EE3622B911D10 /* KFImageCacheManager.swift */; };
+		68049B1E5DC178C8B6C66F1952925345 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E448886F539D1901165DB8CA98B53190 /* Foundation.framework */; };
+		69B85CA0F415CD63F5FE671EE3966123 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E448886F539D1901165DB8CA98B53190 /* Foundation.framework */; };
+		6F424CAD2A1577954A753C4CF57B866F /* UIButtonExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92EC8AA6317AD54E8CB4D7AD765BA36F /* UIButtonExtensions.swift */; };
+		737E279DABB5D15C141DAADDF8A0219D /* Context.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8F1D493CCC97589690E5175EB3B35AC /* Context.swift */; };
+		78C13B06E051BD6A51F3BC9929D8DC6E /* MKDropdownMenu-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 28EA6608F981FA3A629D28522D1554B4 /* MKDropdownMenu-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7CF40332B325CEA6C209AFF54EB6CD18 /* Coefficients.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D8C6DF1A007B4F0FDE5B9DCC0B2A3C8 /* Coefficients.swift */; };
+		82B3C4D92D6320556C64EDF9E43B0E3A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E448886F539D1901165DB8CA98B53190 /* Foundation.framework */; };
+		8BC897EAB1A1A5BCD8CE89FE4B36619E /* Edge.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8274EFACD55CE8F51F1CA55ED4C8F9A /* Edge.swift */; };
+		8C48F9232D2923C4A5460501C2CFF32C /* Constraint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9748113885F39675BB4C5346A81CAA8E /* Constraint.swift */; };
+		94D06F454B4F642FB4A4D27179680947 /* Expression.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CEA39529BE5C3157D86339FF4CC28FC /* Expression.swift */; };
+		9544231D949716277CB53BD6B4D76A29 /* Align.swift in Sources */ = {isa = PBXBuildFile; fileRef = C480CF4264474EFD421E1D890D0FE230 /* Align.swift */; };
+		95AFFAD8737C922999C91906ADD238A2 /* Edges.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1786212543A25918B0790AF734483B0A /* Edges.swift */; };
+		961DBF4F89D16F074264C4FDE069439E /* UIViewController+REFrostedViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 171D9E2A6410D69777141FC60CE79D24 /* UIViewController+REFrostedViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9A7812DA0B4C540CCAB4EE841638913E /* MKDropdownMenu-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FFDF390651CECD65ED4DD59AA398976 /* MKDropdownMenu-dummy.m */; };
+		A5D494B5CA35CBA90C70BE54A47DF5A1 /* REFrostedContainerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B287F2E923A64838EB082E0EA680C30 /* REFrostedContainerViewController.m */; };
+		A8A32B1BB236374E075F116CD542B1CE /* WKInterfaceImageExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECA38BF2A9FCE848E2B3E6F4BFE901E6 /* WKInterfaceImageExtensions.swift */; };
+		AA17D49EB0B05319132969419BB5653C /* KFSwiftImageLoader-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 022A9417735BEF696D5E5AB1BA312E21 /* KFSwiftImageLoader-dummy.m */; };
+		AABBF9DD50013423D6BD546865F0D49C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E448886F539D1901165DB8CA98B53190 /* Foundation.framework */; };
+		B30535C97B440F28B6337EA0DC1E8133 /* UIViewController+REFrostedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 616AABD9AB4A612AD8718FCE4FF28AEE /* UIViewController+REFrostedViewController.m */; };
+		BBA2A8859B23BED08A08C531E536D842 /* Point.swift in Sources */ = {isa = PBXBuildFile; fileRef = 733948DCA7FECF2D55DA6C824E32019C /* Point.swift */; };
+		C5091945E1FAC700244E2B0160A48F0A /* Priority.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F410953B1F926D02FD0AF308014EBB0 /* Priority.swift */; };
+		C6456465E77FDD1CF705F55ADDC62957 /* ViewUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE11784C9FF681EFBA916C924AED7EDA /* ViewUtils.swift */; };
+		CE3E6B6962A11D033817FA980ECD2B7F /* REFrostedContainerViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = B0DD5118B75A0D3E0C352F330DC950EC /* REFrostedContainerViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CFF42353A8663E0A59FA652C563AF828 /* LayoutProxy.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6B10861F90960D51FDA504C49B5DD81 /* LayoutProxy.swift */; };
+		D31385116F88ED71F62B67B2C6A4ABEE /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C0F502D72C788CE7E292AB05EC80EAE /* QuartzCore.framework */; };
+		DD1FC866306D525D9756E06ED2C3F645 /* UIImage+REFrostedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F9B7C70052AF2FAAE043449666B95E0B /* UIImage+REFrostedViewController.m */; };
+		F3847A95782442C332BD3C5FFC685D52 /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FACED8C86EFAA0133ACD675960567676 /* Accelerate.framework */; };
+		F7817CB2F6A30A74138E6DBFFCD368A3 /* RECommonFunctions.m in Sources */ = {isa = PBXBuildFile; fileRef = E579B648CE3101F39F463FB8BB7AACCC /* RECommonFunctions.m */; };
+		FE782812B3387F979D0D186B2AD7426D /* Cartography-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C35FE2AC95518BB8DED0FEBB1F24079A /* Cartography-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FEBC89C5FF9C1A6E233D8192BA8473A2 /* REFrostedViewController-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 65824F60C6A1A3C4064C7CA81D5BCA33 /* REFrostedViewController-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		9C8199CA8B3B66D5B5C463A331B78431 /* PBXContainerItemProxy */ = {
+		01DA27D02D302164A30228FC0167F09D /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 935868B02D678B72AAD39DDD2E0FCF7D;
-			remoteInfo = KFSwiftImageLoader;
-		};
-		BC39EA63324EB71F42CE644136CA2DA8 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = C3A04698AAE4D6124C20602D622956E5;
-			remoteInfo = Cartography;
-		};
-		C89B6FDC2947CA8988401ADA7C590200 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 8B4F7DB88714CF6902BEF630A1EDA624;
+			remoteGlobalIDString = 4DCC4D0EA1FEBB193ACF9A8A1B2A7029;
 			remoteInfo = REFrostedViewController;
 		};
-		F4EDBD3A70AC9BD8ACAAED7DF41D0D32 /* PBXContainerItemProxy */ = {
+		90D99BCCD7D1BE198B8918F49E64B85F /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 809DE3800084EF22BFD35DFAB1533AC6;
+			remoteGlobalIDString = F5998E20F683EE1E9022DCED6FFD564C;
 			remoteInfo = MKDropdownMenu;
+		};
+		F321F922052C1155EAF310D3C81F170C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A7C2A2F39B9E6476D7B5F7A9BAF47224;
+			remoteInfo = Cartography;
+		};
+		FEA53C414FE3E8FAD61302D1F69D46AB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B8C634D7729AC54B072AC193FF0BF75F;
+			remoteInfo = KFSwiftImageLoader;
 		};
 /* End PBXContainerItemProxy section */
 
@@ -105,20 +105,19 @@
 		0D8C6DF1A007B4F0FDE5B9DCC0B2A3C8 /* Coefficients.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Coefficients.swift; path = Cartography/Coefficients.swift; sourceTree = "<group>"; };
 		1030FB3FB402F289D9F80338CD90F75E /* IPendingServiceCallback.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IPendingServiceCallback.h; path = SDK/ios/CommLibiOS/include/IPendingServiceCallback.h; sourceTree = "<group>"; };
 		111E7F36C8E6FCB5EC591AE6E7A8364E /* MKDropdownMenu-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MKDropdownMenu-prefix.pch"; sourceTree = "<group>"; };
-		116435C78A4CCB7F394BE7A2C72B1337 /* REFrostedViewController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = REFrostedViewController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		116435C78A4CCB7F394BE7A2C72B1337 /* REFrostedViewController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = REFrostedViewController.framework; path = REFrostedViewController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		12C19DAAEAAA23EC78E35AB060BD96F6 /* BinaryCodec.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BinaryCodec.h; path = SDK/ios/CommLibiOS/include/BinaryCodec.h; sourceTree = "<group>"; };
 		12C4E8AEF9B523433C21300AD1A73EC9 /* BackendlessCollection.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BackendlessCollection.h; path = SDK/ios/backendless/include/BackendlessCollection.h; sourceTree = "<group>"; };
 		171D9E2A6410D69777141FC60CE79D24 /* UIViewController+REFrostedViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIViewController+REFrostedViewController.h"; path = "REFrostedViewController/UIViewController+REFrostedViewController.h"; sourceTree = "<group>"; };
 		1786212543A25918B0790AF734483B0A /* Edges.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Edges.swift; path = Cartography/Edges.swift; sourceTree = "<group>"; };
 		1B56B6D7DDFEC1DD9FB83C17BE18A58C /* CacheService.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CacheService.h; path = SDK/ios/backendless/include/CacheService.h; sourceTree = "<group>"; };
 		1BB2802DD0687C276DC34D7136A71CBC /* ConstraintGroup.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintGroup.swift; path = Cartography/ConstraintGroup.swift; sourceTree = "<group>"; };
-		1E2F7601DE18B4E35B711287BAC9A1ED /* MKDropdownMenu.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = MKDropdownMenu.modulemap; sourceTree = "<group>"; };
+		1E2F7601DE18B4E35B711287BAC9A1ED /* MKDropdownMenu.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = MKDropdownMenu.modulemap; sourceTree = "<group>"; };
 		1E4F376C9A406DF7F61A3AB62F0F7D61 /* Dimension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Dimension.swift; path = Cartography/Dimension.swift; sourceTree = "<group>"; };
-		1FA155FAD2B4A1D3E0A07D3D02154CBA /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
 		1FFDF390651CECD65ED4DD59AA398976 /* MKDropdownMenu-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MKDropdownMenu-dummy.m"; sourceTree = "<group>"; };
 		21268F18C24C03A2CC11FF7E366623A8 /* AtomicCountersFactory.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AtomicCountersFactory.h; path = SDK/ios/backendless/include/AtomicCountersFactory.h; sourceTree = "<group>"; };
 		215AEE0E66C7BEAD504FA86C29C38596 /* Pods-ZhelAyaq-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ZhelAyaq-dummy.m"; sourceTree = "<group>"; };
-		215DEB11E2F4AE3B70785993CBB5F4B9 /* Cartography.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = Cartography.modulemap; sourceTree = "<group>"; };
+		215DEB11E2F4AE3B70785993CBB5F4B9 /* Cartography.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = Cartography.modulemap; sourceTree = "<group>"; };
 		24935B8F87D5AA8ABFA5509B4CE9272B /* AbstractProperty.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AbstractProperty.h; path = SDK/ios/backendless/include/AbstractProperty.h; sourceTree = "<group>"; };
 		24B548A54FD0A1FADB80A9A28542B5B2 /* UIView+REFrostedViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+REFrostedViewController.m"; path = "REFrostedViewController/UIView+REFrostedViewController.m"; sourceTree = "<group>"; };
 		28EA6608F981FA3A629D28522D1554B4 /* MKDropdownMenu-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MKDropdownMenu-umbrella.h"; sourceTree = "<group>"; };
@@ -132,16 +131,16 @@
 		3573902905650F877F393CA08FC6D855 /* Backendless-With-Media-Bridging-Header.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "Backendless-With-Media-Bridging-Header.h"; path = "SDK/ios/backendless/include/Backendless-With-Media-Bridging-Header.h"; sourceTree = "<group>"; };
 		35FA5FC8A0E4F0E1AF63D7DB3554EA97 /* BackendlessBeacon.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BackendlessBeacon.h; path = SDK/ios/backendless/include/BackendlessBeacon.h; sourceTree = "<group>"; };
 		3B287F2E923A64838EB082E0EA680C30 /* REFrostedContainerViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = REFrostedContainerViewController.m; path = REFrostedViewController/REFrostedContainerViewController.m; sourceTree = "<group>"; };
-		3B3618D65E145F1C60B0296063D4DE0B /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Accelerate.framework; sourceTree = DEVELOPER_DIR; };
 		3BFF5ACB28B70010069AAEDD0F6D9797 /* Responder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Responder.h; path = SDK/ios/CommLibiOS/include/Responder.h; sourceTree = "<group>"; };
-		3DA9E6F5D05E1E3D9C15DD3B5D7FE841 /* KFSwiftImageLoader.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = KFSwiftImageLoader.modulemap; sourceTree = "<group>"; };
+		3C0F502D72C788CE7E292AB05EC80EAE /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
+		3DA9E6F5D05E1E3D9C15DD3B5D7FE841 /* KFSwiftImageLoader.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = KFSwiftImageLoader.modulemap; sourceTree = "<group>"; };
 		3E7DA30E5252E0F2C9E926C4650F8ABF /* DataPermission.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DataPermission.h; path = SDK/ios/backendless/include/DataPermission.h; sourceTree = "<group>"; };
 		40AC0ACD03A146029F27853807DB1B1C /* Pods-ZhelAyaq-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ZhelAyaq-resources.sh"; sourceTree = "<group>"; };
 		432C290145F44A624393E2BD4F5A7BA4 /* DataStoreFactory.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DataStoreFactory.h; path = SDK/ios/backendless/include/DataStoreFactory.h; sourceTree = "<group>"; };
 		44D157E1536DE6D610F6FF1AF4A7E306 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		47842C7D4F3B2EE9FCB412DBE595978F /* Size.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Size.swift; path = Cartography/Size.swift; sourceTree = "<group>"; };
 		47FA158A288C5D638EFEAE5645C276CB /* View.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = View.swift; path = Cartography/View.swift; sourceTree = "<group>"; };
-		491A5CCA863932C20AF9087E0A4401D6 /* Cartography.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Cartography.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		491A5CCA863932C20AF9087E0A4401D6 /* Cartography.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Cartography.framework; path = Cartography.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4A1F312718FA1D1868DC1A9387D50499 /* IAttributeStore.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IAttributeStore.h; path = SDK/ios/CommLibiOS/include/IAttributeStore.h; sourceTree = "<group>"; };
 		4B1BBABAEE9CAC85DADBEC28B7FC75EA /* FileService.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FileService.h; path = SDK/ios/backendless/include/FileService.h; sourceTree = "<group>"; };
 		4D7939CFC6394F4F8E26239C52B3C0BB /* QueryOptions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = QueryOptions.h; path = SDK/ios/backendless/include/QueryOptions.h; sourceTree = "<group>"; };
@@ -169,8 +168,8 @@
 		748764BEC591E0C8967F7417423556F4 /* Compound.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Compound.swift; path = Cartography/Compound.swift; sourceTree = "<group>"; };
 		74DC75952C26585155CD990C735B1E7D /* REFrostedViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = REFrostedViewController.m; path = REFrostedViewController/REFrostedViewController.m; sourceTree = "<group>"; };
 		7598E970F4BED22FC62B472CC2A2932B /* MKDropdownMenu.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MKDropdownMenu.xcconfig; sourceTree = "<group>"; };
-		762EB9CED9912CAB1F13CF9783EA24FF /* REFrostedViewController.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = REFrostedViewController.modulemap; sourceTree = "<group>"; };
-		7F8ED43909742772EE9335E4D350F689 /* Pods_ZhelAyaq.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZhelAyaq.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		762EB9CED9912CAB1F13CF9783EA24FF /* REFrostedViewController.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = REFrostedViewController.modulemap; sourceTree = "<group>"; };
+		7F8ED43909742772EE9335E4D350F689 /* Pods_ZhelAyaq.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ZhelAyaq.framework; path = "Pods-ZhelAyaq.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7FCC4F0AE4B743AE1D48B769E384CC2D /* IRTMProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IRTMProtocol.h; path = SDK/ios/CommLibiOS/include/IRTMProtocol.h; sourceTree = "<group>"; };
 		81725C0C0D32D5A05E50C04AE808AA04 /* KFSwiftImageLoader-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KFSwiftImageLoader-umbrella.h"; sourceTree = "<group>"; };
 		82FEEF54A329C77619F237D20ADB041A /* BESubscription.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BESubscription.h; path = SDK/ios/backendless/include/BESubscription.h; sourceTree = "<group>"; };
@@ -179,12 +178,11 @@
 		8E45B63F6D7A7A2DC7943E40F4ED4474 /* Events.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Events.h; path = SDK/ios/backendless/include/Events.h; sourceTree = "<group>"; };
 		8EDD0623752846E8DD06F3AA042F14D4 /* Backendless-Bridging-Header.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "Backendless-Bridging-Header.h"; path = "SDK/ios/backendless/include/Backendless-Bridging-Header.h"; sourceTree = "<group>"; };
 		92EC8AA6317AD54E8CB4D7AD765BA36F /* UIButtonExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UIButtonExtensions.swift; path = KFSwiftImageLoader/UIButtonExtensions.swift; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		94BEBEB384EFB1A48FF75DC8B60FD359 /* Cartography.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Cartography.xcconfig; sourceTree = "<group>"; };
 		94C91C78794FE7294428969072E094EE /* BackendlessSimpleQuery.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BackendlessSimpleQuery.h; path = SDK/ios/backendless/include/BackendlessSimpleQuery.h; sourceTree = "<group>"; };
 		95009BCB201C6043871830ECCC1949AC /* HashMap.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HashMap.h; path = SDK/ios/backendless/include/HashMap.h; sourceTree = "<group>"; };
 		95E3CFC510F75B8D78E654D4342166A1 /* UIImageViewExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UIImageViewExtensions.swift; path = KFSwiftImageLoader/UIImageViewExtensions.swift; sourceTree = "<group>"; };
-		9631CE63B2497EBDBE787AB5B2AEEEEF /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		9748113885F39675BB4C5346A81CAA8E /* Constraint.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Constraint.swift; path = Cartography/Constraint.swift; sourceTree = "<group>"; };
 		9E1734CD09FE88F8BDA32C0DA5D6C4A0 /* MemoryTicker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MemoryTicker.h; path = SDK/ios/CommLibiOS/include/MemoryTicker.h; sourceTree = "<group>"; };
 		9E8C9AEBDE70FEBCE23BCC44C98247D6 /* AMFSerializer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AMFSerializer.h; path = SDK/ios/CommLibiOS/include/AMFSerializer.h; sourceTree = "<group>"; };
@@ -198,7 +196,7 @@
 		AC1197D7844F8F84E6FA72EEEBD02049 /* IClientSharedObject.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IClientSharedObject.h; path = SDK/ios/CommLibiOS/include/IClientSharedObject.h; sourceTree = "<group>"; };
 		AC288B0800BB0223E6641D988DC7221F /* IDataStore.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IDataStore.h; path = SDK/ios/backendless/include/IDataStore.h; sourceTree = "<group>"; };
 		AD0193D760177EAFEAB8648AFE1B5D51 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		AD62BAEE294D18CB21E746FCAB87D494 /* KFSwiftImageLoader.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = KFSwiftImageLoader.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD62BAEE294D18CB21E746FCAB87D494 /* KFSwiftImageLoader.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = KFSwiftImageLoader.framework; path = KFSwiftImageLoader.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AF44AB90BCD71504EB90C6912FD4FDD8 /* PersistenceService.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PersistenceService.h; path = SDK/ios/backendless/include/PersistenceService.h; sourceTree = "<group>"; };
 		AFC7CF07EC9C11331A51B77D4DFEAA9F /* BodyParts.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BodyParts.h; path = SDK/ios/backendless/include/BodyParts.h; sourceTree = "<group>"; };
 		B0776B25C1E7D541B16A5FFB080A8FBC /* Distribute.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Distribute.swift; path = Cartography/Distribute.swift; sourceTree = "<group>"; };
@@ -213,7 +211,7 @@
 		C35FE2AC95518BB8DED0FEBB1F24079A /* Cartography-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Cartography-umbrella.h"; sourceTree = "<group>"; };
 		C3D2B2C705409B481299E0383F1FBAD7 /* DeviceRegistration.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DeviceRegistration.h; path = SDK/ios/backendless/include/DeviceRegistration.h; sourceTree = "<group>"; };
 		C480CF4264474EFD421E1D890D0FE230 /* Align.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Align.swift; path = Cartography/Align.swift; sourceTree = "<group>"; };
-		C72F835A9A6D5D29067FDE69F63A4E1D /* MKDropdownMenu.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MKDropdownMenu.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C72F835A9A6D5D29067FDE69F63A4E1D /* MKDropdownMenu.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = MKDropdownMenu.framework; path = MKDropdownMenu.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C7812C9720774AAE1DC4F3809885A7F8 /* AbstractQuery.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AbstractQuery.h; path = SDK/ios/backendless/include/AbstractQuery.h; sourceTree = "<group>"; };
 		C79F01FDA27B4A28FF5059E7BC2AA599 /* MKDropdownMenu.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MKDropdownMenu.m; path = MKDropdownMenu/MKDropdownMenu.m; sourceTree = "<group>"; };
 		CCD34AD3DF19C86FC634A4CF99D9B2A5 /* RECommonFunctions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RECommonFunctions.h; path = REFrostedViewController/RECommonFunctions.h; sourceTree = "<group>"; };
@@ -223,11 +221,12 @@
 		D4CD700CB9CBFD3B07385F5E3032E657 /* Message.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Message.h; path = SDK/ios/backendless/include/Message.h; sourceTree = "<group>"; };
 		D4FDF61088B3DA23800028B25906C0D1 /* MKDropdownMenu.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MKDropdownMenu.h; path = MKDropdownMenu/MKDropdownMenu.h; sourceTree = "<group>"; };
 		D8274EFACD55CE8F51F1CA55ED4C8F9A /* Edge.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Edge.swift; path = Cartography/Edge.swift; sourceTree = "<group>"; };
-		D96D5252782F8EA2BB3B458D607FB5AB /* Pods-ZhelAyaq.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-ZhelAyaq.modulemap"; sourceTree = "<group>"; };
+		D96D5252782F8EA2BB3B458D607FB5AB /* Pods-ZhelAyaq.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-ZhelAyaq.modulemap"; sourceTree = "<group>"; };
 		E20C4B61AFCC13AF33D870059CB39F66 /* ICacheService.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ICacheService.h; path = SDK/ios/backendless/include/ICacheService.h; sourceTree = "<group>"; };
 		E256D3572E333907E009929E0C802423 /* Cartography-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Cartography-dummy.m"; sourceTree = "<group>"; };
 		E373C738196572D7996EB042E0AF95F4 /* AtomicCounters.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AtomicCounters.h; path = SDK/ios/backendless/include/AtomicCounters.h; sourceTree = "<group>"; };
 		E3BE7B34E4BDF72369123697FB3D70D2 /* IPersistable.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IPersistable.h; path = SDK/ios/CommLibiOS/include/IPersistable.h; sourceTree = "<group>"; };
+		E448886F539D1901165DB8CA98B53190 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		E579B648CE3101F39F463FB8BB7AACCC /* RECommonFunctions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RECommonFunctions.m; path = REFrostedViewController/RECommonFunctions.m; sourceTree = "<group>"; };
 		E5BA4E415B297C0485629F68A5CA2EC9 /* DeliveryOptions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DeliveryOptions.h; path = SDK/ios/backendless/include/DeliveryOptions.h; sourceTree = "<group>"; };
 		E77EF4DD1C6C34795766F11387AAF105 /* DEBUG.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DEBUG.h; path = SDK/ios/CommLibiOS/include/DEBUG.h; sourceTree = "<group>"; };
@@ -252,6 +251,7 @@
 		F93488CB6A4DF7A6DEDF526CB9A0E1FB /* Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Extensions.swift; path = Cartography/Extensions.swift; sourceTree = "<group>"; };
 		F9B7C70052AF2FAAE043449666B95E0B /* UIImage+REFrostedViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+REFrostedViewController.m"; path = "REFrostedViewController/UIImage+REFrostedViewController.m"; sourceTree = "<group>"; };
 		F9D19507306F469E5FA45CBC0D1CE7C1 /* ProtectedBackendlessGeoQuery.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ProtectedBackendlessGeoQuery.h; path = SDK/ios/backendless/include/ProtectedBackendlessGeoQuery.h; sourceTree = "<group>"; };
+		FACED8C86EFAA0133ACD675960567676 /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Accelerate.framework; sourceTree = DEVELOPER_DIR; };
 		FAD37D6EFC89476D4F2B153F598767DC /* PublishOptions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PublishOptions.h; path = SDK/ios/backendless/include/PublishOptions.h; sourceTree = "<group>"; };
 		FAFAE3EEE6CA199071FB3FFE4BD7FF1E /* UIView+REFrostedViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+REFrostedViewController.h"; path = "REFrostedViewController/UIView+REFrostedViewController.h"; sourceTree = "<group>"; };
 		FCF5A438A3B980961AEDBFE475816135 /* RTMPClient.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RTMPClient.h; path = SDK/ios/CommLibiOS/include/RTMPClient.h; sourceTree = "<group>"; };
@@ -261,45 +261,45 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		2584EFB11175C3301609846F03513B68 /* Frameworks */ = {
+		6A4D1850A6AB28C7C3BC4DC96DE8EA58 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5854D47B11BD645BD96691754C9AB71B /* Accelerate.framework in Frameworks */,
-				731B8D3D8F206DDEE6F1FD7AA818252A /* Foundation.framework in Frameworks */,
-				DF1582EBEC25A5B86945504B1AB946BD /* QuartzCore.framework in Frameworks */,
+				540EAEF46E49A0FF9FFEAB11FA506F68 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		429A34DF3BBD7321C9C7D6FBF5F1E3FB /* Frameworks */ = {
+		7D562B304E1F49B389471850761EE171 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A33E78335A9459EC83327D52001569C9 /* Foundation.framework in Frameworks */,
+				AABBF9DD50013423D6BD546865F0D49C /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		7FA7AC659F253A0D3B4C23CDFB4FE8BF /* Frameworks */ = {
+		8A1CF8BAA21D76A2DC8F235C12E497F3 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6A5126306036117BBD3550566880BFF4 /* Foundation.framework in Frameworks */,
+				68049B1E5DC178C8B6C66F1952925345 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A14DBE065D69C106BE57092C0A11ABAA /* Frameworks */ = {
+		B6B0016C4F883E80972F73536AD98F51 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				58E86813FE0E5EA4ACA2ACE3FF8E7AA3 /* Foundation.framework in Frameworks */,
+				F3847A95782442C332BD3C5FFC685D52 /* Accelerate.framework in Frameworks */,
+				82B3C4D92D6320556C64EDF9E43B0E3A /* Foundation.framework in Frameworks */,
+				D31385116F88ED71F62B67B2C6A4ABEE /* QuartzCore.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B231C6B3EA6D4C8150F98AC078E87327 /* Frameworks */ = {
+		DF3FCA6E169ACD45042A0689D5AFD676 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				25065D4BE7FF236A05F2E1DF7085C589 /* Foundation.framework in Frameworks */,
+				69B85CA0F415CD63F5FE671EE3966123 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -316,13 +316,14 @@
 				ECA38BF2A9FCE848E2B3E6F4BFE901E6 /* WKInterfaceImageExtensions.swift */,
 				705A0ABFDD98661595649D03A2737AF9 /* Support Files */,
 			);
+			name = KFSwiftImageLoader;
 			path = KFSwiftImageLoader;
 			sourceTree = "<group>";
 		};
 		122DA2E5084A4393C29BE363C764795C /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				F6E4988CF3CCD02D6281B6E1BAC9BCAB /* iOS */,
+				2B791E22FCC149ECB36D3E7E719B7E33 /* iOS */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -333,6 +334,16 @@
 				E14D398C168514DA626A2CD322669D46 /* Pods-ZhelAyaq */,
 			);
 			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		2B791E22FCC149ECB36D3E7E719B7E33 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				FACED8C86EFAA0133ACD675960567676 /* Accelerate.framework */,
+				E448886F539D1901165DB8CA98B53190 /* Foundation.framework */,
+				3C0F502D72C788CE7E292AB05EC80EAE /* QuartzCore.framework */,
+			);
+			name = iOS;
 			sourceTree = "<group>";
 		};
 		4B791433097AC2F6579B6D4B051F4598 /* Support Files */ = {
@@ -411,6 +422,7 @@
 				BE11784C9FF681EFBA916C924AED7EDA /* ViewUtils.swift */,
 				FAE8AF2B09ACFCB59D7E9D7D8525A09D /* Support Files */,
 			);
+			name = Cartography;
 			path = Cartography;
 			sourceTree = "<group>";
 		};
@@ -443,6 +455,7 @@
 				616AABD9AB4A612AD8718FCE4FF28AEE /* UIViewController+REFrostedViewController.m */,
 				4B791433097AC2F6579B6D4B051F4598 /* Support Files */,
 			);
+			name = REFrostedViewController;
 			path = REFrostedViewController;
 			sourceTree = "<group>";
 		};
@@ -529,6 +542,7 @@
 				F5E96B7ED006DB4C720F2952A53BB064 /* UserService.h */,
 				2CFF631C39DA667BE3ADEDFA3FD5D34D /* WeborbClient.h */,
 			);
+			name = Backendless;
 			path = Backendless;
 			sourceTree = "<group>";
 		};
@@ -571,17 +585,8 @@
 				C79F01FDA27B4A28FF5059E7BC2AA599 /* MKDropdownMenu.m */,
 				F18D55ED8DA053A081F310B523185295 /* Support Files */,
 			);
+			name = MKDropdownMenu;
 			path = MKDropdownMenu;
-			sourceTree = "<group>";
-		};
-		F6E4988CF3CCD02D6281B6E1BAC9BCAB /* iOS */ = {
-			isa = PBXGroup;
-			children = (
-				3B3618D65E145F1C60B0296063D4DE0B /* Accelerate.framework */,
-				9631CE63B2497EBDBE787AB5B2AEEEEF /* Foundation.framework */,
-				1FA155FAD2B4A1D3E0A07D3D02154CBA /* QuartzCore.framework */,
-			);
-			name = iOS;
 			sourceTree = "<group>";
 		};
 		FAE8AF2B09ACFCB59D7E9D7D8525A09D /* Support Files */ = {
@@ -601,101 +606,63 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		463A2E6E4CAE216F57171446F02C4E81 /* Headers */ = {
+		23A2B417BBBF7B383AF2F10385C7ABF0 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D651B314EF7555E8FA582225DDDC2F28 /* RECommonFunctions.h in Headers */,
-				873611321E560B21D6695308DA9BF90B /* REFrostedContainerViewController.h in Headers */,
-				4A589B5037C5D4C18B1ADEC9E11A5BD1 /* REFrostedViewController-umbrella.h in Headers */,
-				0FA4EC50DDAEEEDDC6E5940ED9839092 /* REFrostedViewController.h in Headers */,
-				138D07604F79137B7CA06152C2D1BF1E /* UIImage+REFrostedViewController.h in Headers */,
-				E02B952C17DF5922AD93FFDD64D878A7 /* UIView+REFrostedViewController.h in Headers */,
-				8BCBC45470B93DA7AC24363C44BE61B2 /* UIViewController+REFrostedViewController.h in Headers */,
+				FE782812B3387F979D0D186B2AD7426D /* Cartography-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		514705BF944036B79FA99816C564643C /* Headers */ = {
+		5CF91E0B745FCEEB1DFB6D794C30CEC0 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B90891688A088BC37455234028C2E993 /* Cartography-umbrella.h in Headers */,
+				78C13B06E051BD6A51F3BC9929D8DC6E /* MKDropdownMenu-umbrella.h in Headers */,
+				407440C5216AD13499D01DC3B72860CC /* MKDropdownMenu.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A2CD9D76E11AA5EA85539BCFB943B580 /* Headers */ = {
+		68ACC36A899B766E95E5216D2596200F /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FA0848667998514D1C3A40D077A0F83D /* MKDropdownMenu-umbrella.h in Headers */,
-				C636A60D123212029DF6B3EB864B33FF /* MKDropdownMenu.h in Headers */,
+				4B64A31FBA983F0A9FDEB6D0B52DB840 /* RECommonFunctions.h in Headers */,
+				CE3E6B6962A11D033817FA980ECD2B7F /* REFrostedContainerViewController.h in Headers */,
+				FEBC89C5FF9C1A6E233D8192BA8473A2 /* REFrostedViewController-umbrella.h in Headers */,
+				209D333298FAF7214F4578B6F4DA5E39 /* REFrostedViewController.h in Headers */,
+				018C195654210F5A8B8913B474BDB3BA /* UIImage+REFrostedViewController.h in Headers */,
+				55C6FBA1626A06344D3B789C7D313E19 /* UIView+REFrostedViewController.h in Headers */,
+				961DBF4F89D16F074264C4FDE069439E /* UIViewController+REFrostedViewController.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		BB7AAFB3C1B2E07F5067AC21D51C877C /* Headers */ = {
+		C1CAE6AF2329477E8840230ECB0B96FC /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E9EB979120769BE93B541078F9D7E622 /* KFSwiftImageLoader-umbrella.h in Headers */,
+				18F6441C173652E34DCEC7546592D88E /* Pods-ZhelAyaq-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		CA42090CBE7CB2C1C40E6828F0057964 /* Headers */ = {
+		D7F46C70240415D9B3EE8CFA02DF7E03 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0D9CDCCAFBC47011E6AB8904C6E4C89D /* Pods-ZhelAyaq-umbrella.h in Headers */,
+				21C1351DE5822C393AFACE2505E40B6D /* KFSwiftImageLoader-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		6CC815F0305FDBCF7FB94C0FD421B297 /* Pods-ZhelAyaq */ = {
+		4DCC4D0EA1FEBB193ACF9A8A1B2A7029 /* REFrostedViewController */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = E085512388290F90CB5D83BB8FA796D8 /* Build configuration list for PBXNativeTarget "Pods-ZhelAyaq" */;
+			buildConfigurationList = 00107B69666FE4DFB7672D9236E60596 /* Build configuration list for PBXNativeTarget "REFrostedViewController" */;
 			buildPhases = (
-				E4B17EEB6FC83E9F7BF841432240E68F /* Sources */,
-				B231C6B3EA6D4C8150F98AC078E87327 /* Frameworks */,
-				CA42090CBE7CB2C1C40E6828F0057964 /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				4B26075993B6CFA5C9E1CEECC3DF279F /* PBXTargetDependency */,
-				FDE92DADA87A6767B38B6C34BCDC6228 /* PBXTargetDependency */,
-				ACD5E7EF6F3F840B398CE4270C9B9EAF /* PBXTargetDependency */,
-				D82EE9FAF78E1B4C2B5D03E41DF91EAA /* PBXTargetDependency */,
-			);
-			name = "Pods-ZhelAyaq";
-			productName = "Pods-ZhelAyaq";
-			productReference = 7F8ED43909742772EE9335E4D350F689 /* Pods_ZhelAyaq.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		809DE3800084EF22BFD35DFAB1533AC6 /* MKDropdownMenu */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = D4F87DC32C244717B864F2144B2C86FC /* Build configuration list for PBXNativeTarget "MKDropdownMenu" */;
-			buildPhases = (
-				779B77F5E7EB7D434D01D71B33654D8E /* Sources */,
-				A14DBE065D69C106BE57092C0A11ABAA /* Frameworks */,
-				A2CD9D76E11AA5EA85539BCFB943B580 /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = MKDropdownMenu;
-			productName = MKDropdownMenu;
-			productReference = C72F835A9A6D5D29067FDE69F63A4E1D /* MKDropdownMenu.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		8B4F7DB88714CF6902BEF630A1EDA624 /* REFrostedViewController */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 54290AB78D7E43995936AE50F716AD78 /* Build configuration list for PBXNativeTarget "REFrostedViewController" */;
-			buildPhases = (
-				A9F0CB4FE9E4DBBBC38A3BF0FDD62016 /* Sources */,
-				2584EFB11175C3301609846F03513B68 /* Frameworks */,
-				463A2E6E4CAE216F57171446F02C4E81 /* Headers */,
+				DFDA9F8D31A74C0560E2D0AF18841B82 /* Sources */,
+				B6B0016C4F883E80972F73536AD98F51 /* Frameworks */,
+				68ACC36A899B766E95E5216D2596200F /* Headers */,
 			);
 			buildRules = (
 			);
@@ -706,13 +673,51 @@
 			productReference = 116435C78A4CCB7F394BE7A2C72B1337 /* REFrostedViewController.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		935868B02D678B72AAD39DDD2E0FCF7D /* KFSwiftImageLoader */ = {
+		7EACFA67AD4A501A1501FCBF07B48AB2 /* Pods-ZhelAyaq */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F0B868FB3A40A656D456F58119F42534 /* Build configuration list for PBXNativeTarget "KFSwiftImageLoader" */;
+			buildConfigurationList = 8A87BA27A2BFB6B9B78EEA44B7F2FE79 /* Build configuration list for PBXNativeTarget "Pods-ZhelAyaq" */;
 			buildPhases = (
-				11C88C605A2EAFDE05134774FA26B443 /* Sources */,
-				7FA7AC659F253A0D3B4C23CDFB4FE8BF /* Frameworks */,
-				BB7AAFB3C1B2E07F5067AC21D51C877C /* Headers */,
+				D47627CDED168A5781FFB9CCA34F10A1 /* Sources */,
+				7D562B304E1F49B389471850761EE171 /* Frameworks */,
+				C1CAE6AF2329477E8840230ECB0B96FC /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7D1C1F061F3BF445CE3752463223EC8F /* PBXTargetDependency */,
+				DEE6678ED10447DE3105A2D0E36D0EE6 /* PBXTargetDependency */,
+				DD1F7708708846439314ECC1538DD03C /* PBXTargetDependency */,
+				2A651F9C4259AE4A883A636D907A3049 /* PBXTargetDependency */,
+			);
+			name = "Pods-ZhelAyaq";
+			productName = "Pods-ZhelAyaq";
+			productReference = 7F8ED43909742772EE9335E4D350F689 /* Pods_ZhelAyaq.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		A7C2A2F39B9E6476D7B5F7A9BAF47224 /* Cartography */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0C320110FFDCD52586F037F383DE386C /* Build configuration list for PBXNativeTarget "Cartography" */;
+			buildPhases = (
+				495E044B6EA70D5BBFB747D154DDFE58 /* Sources */,
+				DF3FCA6E169ACD45042A0689D5AFD676 /* Frameworks */,
+				23A2B417BBBF7B383AF2F10385C7ABF0 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Cartography;
+			productName = Cartography;
+			productReference = 491A5CCA863932C20AF9087E0A4401D6 /* Cartography.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		B8C634D7729AC54B072AC193FF0BF75F /* KFSwiftImageLoader */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 874D063D146AB8239714EC66F31AA235 /* Build configuration list for PBXNativeTarget "KFSwiftImageLoader" */;
+			buildPhases = (
+				C868B889BE71F386E684BD3B24A16929 /* Sources */,
+				6A4D1850A6AB28C7C3BC4DC96DE8EA58 /* Frameworks */,
+				D7F46C70240415D9B3EE8CFA02DF7E03 /* Headers */,
 			);
 			buildRules = (
 			);
@@ -723,21 +728,21 @@
 			productReference = AD62BAEE294D18CB21E746FCAB87D494 /* KFSwiftImageLoader.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		C3A04698AAE4D6124C20602D622956E5 /* Cartography */ = {
+		F5998E20F683EE1E9022DCED6FFD564C /* MKDropdownMenu */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B22DC939D187391042315573DBEE7623 /* Build configuration list for PBXNativeTarget "Cartography" */;
+			buildConfigurationList = 7A30A1B4B5C64B7177D21E129C72A9D7 /* Build configuration list for PBXNativeTarget "MKDropdownMenu" */;
 			buildPhases = (
-				B962ED42E882856B9D168260BB18AE95 /* Sources */,
-				429A34DF3BBD7321C9C7D6FBF5F1E3FB /* Frameworks */,
-				514705BF944036B79FA99816C564643C /* Headers */,
+				2980F948F583F647BF072A91D49931B4 /* Sources */,
+				8A1CF8BAA21D76A2DC8F235C12E497F3 /* Frameworks */,
+				5CF91E0B745FCEEB1DFB6D794C30CEC0 /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = Cartography;
-			productName = Cartography;
-			productReference = 491A5CCA863932C20AF9087E0A4401D6 /* Cartography.framework */;
+			name = MKDropdownMenu;
+			productName = MKDropdownMenu;
+			productReference = C72F835A9A6D5D29067FDE69F63A4E1D /* MKDropdownMenu.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -761,210 +766,119 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				C3A04698AAE4D6124C20602D622956E5 /* Cartography */,
-				935868B02D678B72AAD39DDD2E0FCF7D /* KFSwiftImageLoader */,
-				809DE3800084EF22BFD35DFAB1533AC6 /* MKDropdownMenu */,
-				6CC815F0305FDBCF7FB94C0FD421B297 /* Pods-ZhelAyaq */,
-				8B4F7DB88714CF6902BEF630A1EDA624 /* REFrostedViewController */,
+				A7C2A2F39B9E6476D7B5F7A9BAF47224 /* Cartography */,
+				B8C634D7729AC54B072AC193FF0BF75F /* KFSwiftImageLoader */,
+				F5998E20F683EE1E9022DCED6FFD564C /* MKDropdownMenu */,
+				7EACFA67AD4A501A1501FCBF07B48AB2 /* Pods-ZhelAyaq */,
+				4DCC4D0EA1FEBB193ACF9A8A1B2A7029 /* REFrostedViewController */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		11C88C605A2EAFDE05134774FA26B443 /* Sources */ = {
+		2980F948F583F647BF072A91D49931B4 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1999C6023F30ABDB3712CC48DEFE507B /* KFImageCacheManager.swift in Sources */,
-				3A89FCAA10F5D57366BBBDA2D6E11388 /* KFSwiftImageLoader-dummy.m in Sources */,
-				47CF1C934F54A080A17B4C7D8884EF7F /* MKAnnotationViewExtensions.swift in Sources */,
-				936B0925C2F9180935C72410630A1118 /* UIButtonExtensions.swift in Sources */,
-				354EA0E842569755A33BD2A3876BBDDD /* UIImageViewExtensions.swift in Sources */,
-				1C5BB07932D041836F362CCC03CD2F7A /* WKInterfaceImageExtensions.swift in Sources */,
+				9A7812DA0B4C540CCAB4EE841638913E /* MKDropdownMenu-dummy.m in Sources */,
+				4B928BA447B8EF57B570E4926DABD652 /* MKDropdownMenu.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		779B77F5E7EB7D434D01D71B33654D8E /* Sources */ = {
+		495E044B6EA70D5BBFB747D154DDFE58 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5603E538B9A4CB496E2821B33088BE00 /* MKDropdownMenu-dummy.m in Sources */,
-				4149026F7C8D1EFB7B884A555C342BA9 /* MKDropdownMenu.m in Sources */,
+				9544231D949716277CB53BD6B4D76A29 /* Align.swift in Sources */,
+				5F0D798D15CF2BA015F044DBA2AF9166 /* Cartography-dummy.m in Sources */,
+				7CF40332B325CEA6C209AFF54EB6CD18 /* Coefficients.swift in Sources */,
+				64B24CDF548C208160AA01AC8898A008 /* Compound.swift in Sources */,
+				3F5C5D3D20F32204DDBBC5A56207C933 /* Constrain.swift in Sources */,
+				8C48F9232D2923C4A5460501C2CFF32C /* Constraint.swift in Sources */,
+				0207C021AA09FBDEBCDC66A202AD67BE /* ConstraintGroup.swift in Sources */,
+				737E279DABB5D15C141DAADDF8A0219D /* Context.swift in Sources */,
+				178D295F59310D1446E8E17AEF879C8A /* Dimension.swift in Sources */,
+				59EE4F693665FBA6AA9B99E5439DF952 /* Distribute.swift in Sources */,
+				8BC897EAB1A1A5BCD8CE89FE4B36619E /* Edge.swift in Sources */,
+				95AFFAD8737C922999C91906ADD238A2 /* Edges.swift in Sources */,
+				94D06F454B4F642FB4A4D27179680947 /* Expression.swift in Sources */,
+				07A765C22A2AAD40DD6945D0A816FDD4 /* Extensions.swift in Sources */,
+				CFF42353A8663E0A59FA652C563AF828 /* LayoutProxy.swift in Sources */,
+				BBA2A8859B23BED08A08C531E536D842 /* Point.swift in Sources */,
+				C5091945E1FAC700244E2B0160A48F0A /* Priority.swift in Sources */,
+				66D2F6C745AA0D5B4FDD09D0FF990E6D /* Property.swift in Sources */,
+				353718D35C43DA41D81445EAC1DF642C /* Size.swift in Sources */,
+				0B04A4B3EF265BFD1AC144CB14AC9923 /* View.swift in Sources */,
+				C6456465E77FDD1CF705F55ADDC62957 /* ViewUtils.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A9F0CB4FE9E4DBBBC38A3BF0FDD62016 /* Sources */ = {
+		C868B889BE71F386E684BD3B24A16929 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				81BE7777790FBC9A6A7936B307CB033E /* RECommonFunctions.m in Sources */,
-				D95BD1479563947AA17CFDC0877B6AEE /* REFrostedContainerViewController.m in Sources */,
-				9356F4F57A8A8E1661B7D5188BD8FE22 /* REFrostedViewController-dummy.m in Sources */,
-				3A0BD0F1056BE4E611A3D11F54922754 /* REFrostedViewController.m in Sources */,
-				5BE9F17C9769C825EB6A73E59DDA83F9 /* UIImage+REFrostedViewController.m in Sources */,
-				ECEC10A43290562877B38F0526A8749D /* UIView+REFrostedViewController.m in Sources */,
-				5C5641E515AD28631B0D2B15701245BE /* UIViewController+REFrostedViewController.m in Sources */,
+				67B2403BD059C3BF73E8080D5643CE93 /* KFImageCacheManager.swift in Sources */,
+				AA17D49EB0B05319132969419BB5653C /* KFSwiftImageLoader-dummy.m in Sources */,
+				63ED7BE2815EBF3397DEED5CAF8A78A9 /* MKAnnotationViewExtensions.swift in Sources */,
+				6F424CAD2A1577954A753C4CF57B866F /* UIButtonExtensions.swift in Sources */,
+				31D46009D0751ADC268B73C0217A1362 /* UIImageViewExtensions.swift in Sources */,
+				A8A32B1BB236374E075F116CD542B1CE /* WKInterfaceImageExtensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B962ED42E882856B9D168260BB18AE95 /* Sources */ = {
+		D47627CDED168A5781FFB9CCA34F10A1 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				584B68A7069844742AEF67ED9311FF50 /* Align.swift in Sources */,
-				D56BD3B0ACF32790F3EF43EA3DB08016 /* Cartography-dummy.m in Sources */,
-				EE94E3F06DA2F096BA43F0679567DC4B /* Coefficients.swift in Sources */,
-				28515F6FFAA0E2F9591A862D532F33AC /* Compound.swift in Sources */,
-				D2C9087C6581055C25D5559F934AF65B /* Constrain.swift in Sources */,
-				F469BC9885602957FCB73DD39B5B92B0 /* Constraint.swift in Sources */,
-				E1451AA498D7B41C4E049F5D9027B4A7 /* ConstraintGroup.swift in Sources */,
-				452C09D0CAC1F8286ABA1CE076033B23 /* Context.swift in Sources */,
-				0729DED1737DCDB309394E0B59393F37 /* Dimension.swift in Sources */,
-				369CA2AACEED2517C99D77D7700DFCEA /* Distribute.swift in Sources */,
-				2057FF930EF0F28E7AD548BF23BE78EE /* Edge.swift in Sources */,
-				5044CA9F7CCBB02F3C294106022FCF9F /* Edges.swift in Sources */,
-				7CD04D81B5ED213A105DFC517187EB87 /* Expression.swift in Sources */,
-				BE2FC20F5EDBAE658F688978AB12C279 /* Extensions.swift in Sources */,
-				8378B61D28075525380201114F6E4582 /* LayoutProxy.swift in Sources */,
-				D3C01862D88692FA2E85A2D84345982B /* Point.swift in Sources */,
-				C3649839064E53A4BF767D2EF29651EF /* Priority.swift in Sources */,
-				EB9E85B0CE6A53DCBDE040A716B5DBF8 /* Property.swift in Sources */,
-				B23E3B878363F72D1E874E46EB62FA7F /* Size.swift in Sources */,
-				F95ADCA0B85C6C0640372D3EFBBF1AD6 /* View.swift in Sources */,
-				48ADE3FB3F30FCA5893083351449DA98 /* ViewUtils.swift in Sources */,
+				3A71EA2BBE8AD0D8099CA36F8BA9C48B /* Pods-ZhelAyaq-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E4B17EEB6FC83E9F7BF841432240E68F /* Sources */ = {
+		DFDA9F8D31A74C0560E2D0AF18841B82 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				920FB67BAEE99B3247733AB5CEACA333 /* Pods-ZhelAyaq-dummy.m in Sources */,
+				F7817CB2F6A30A74138E6DBFFCD368A3 /* RECommonFunctions.m in Sources */,
+				A5D494B5CA35CBA90C70BE54A47DF5A1 /* REFrostedContainerViewController.m in Sources */,
+				5793FE79B64B61A1A637F3CFC3CC8B9F /* REFrostedViewController-dummy.m in Sources */,
+				1C94F80B85EDBAFCF8E866C3E6B06436 /* REFrostedViewController.m in Sources */,
+				DD1FC866306D525D9756E06ED2C3F645 /* UIImage+REFrostedViewController.m in Sources */,
+				1B70FF297C2872C72219E1CBDA38B299 /* UIView+REFrostedViewController.m in Sources */,
+				B30535C97B440F28B6337EA0DC1E8133 /* UIViewController+REFrostedViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		4B26075993B6CFA5C9E1CEECC3DF279F /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = Cartography;
-			target = C3A04698AAE4D6124C20602D622956E5 /* Cartography */;
-			targetProxy = BC39EA63324EB71F42CE644136CA2DA8 /* PBXContainerItemProxy */;
-		};
-		ACD5E7EF6F3F840B398CE4270C9B9EAF /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = MKDropdownMenu;
-			target = 809DE3800084EF22BFD35DFAB1533AC6 /* MKDropdownMenu */;
-			targetProxy = F4EDBD3A70AC9BD8ACAAED7DF41D0D32 /* PBXContainerItemProxy */;
-		};
-		D82EE9FAF78E1B4C2B5D03E41DF91EAA /* PBXTargetDependency */ = {
+		2A651F9C4259AE4A883A636D907A3049 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = REFrostedViewController;
-			target = 8B4F7DB88714CF6902BEF630A1EDA624 /* REFrostedViewController */;
-			targetProxy = C89B6FDC2947CA8988401ADA7C590200 /* PBXContainerItemProxy */;
+			target = 4DCC4D0EA1FEBB193ACF9A8A1B2A7029 /* REFrostedViewController */;
+			targetProxy = 01DA27D02D302164A30228FC0167F09D /* PBXContainerItemProxy */;
 		};
-		FDE92DADA87A6767B38B6C34BCDC6228 /* PBXTargetDependency */ = {
+		7D1C1F061F3BF445CE3752463223EC8F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Cartography;
+			target = A7C2A2F39B9E6476D7B5F7A9BAF47224 /* Cartography */;
+			targetProxy = F321F922052C1155EAF310D3C81F170C /* PBXContainerItemProxy */;
+		};
+		DD1F7708708846439314ECC1538DD03C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MKDropdownMenu;
+			target = F5998E20F683EE1E9022DCED6FFD564C /* MKDropdownMenu */;
+			targetProxy = 90D99BCCD7D1BE198B8918F49E64B85F /* PBXContainerItemProxy */;
+		};
+		DEE6678ED10447DE3105A2D0E36D0EE6 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = KFSwiftImageLoader;
-			target = 935868B02D678B72AAD39DDD2E0FCF7D /* KFSwiftImageLoader */;
-			targetProxy = 9C8199CA8B3B66D5B5C463A331B78431 /* PBXContainerItemProxy */;
+			target = B8C634D7729AC54B072AC193FF0BF75F /* KFSwiftImageLoader */;
+			targetProxy = FEA53C414FE3E8FAD61302D1F69D46AB /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		05955C2B1C5854C87CE164F16D185A98 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7598E970F4BED22FC62B472CC2A2932B /* MKDropdownMenu.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/MKDropdownMenu/MKDropdownMenu-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/MKDropdownMenu/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/MKDropdownMenu/MKDropdownMenu.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = MKDropdownMenu;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		1A79383A54B487E28E4C302C30B4220A /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 94BEBEB384EFB1A48FF75DC8B60FD359 /* Cartography.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/Cartography/Cartography-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Cartography/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Cartography/Cartography.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = Cartography;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		229695D6A3518B2A88344F1745143A49 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = A6742CD5BE4CBEFF758E037F1A9B954B /* Pods-ZhelAyaq.release.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-ZhelAyaq/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-ZhelAyaq/Pods-ZhelAyaq.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_ZhelAyaq;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		3FA451D268613890FA8A5A03801E11D5 /* Release */ = {
+		13E96A645A77DAD1FD4F541F18F5DDBF /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -982,103 +896,7 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				COPY_PHASE_STRIP = YES;
-				ENABLE_NS_ASSERTIONS = NO;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"POD_CONFIGURATION_RELEASE=1",
-					"$(inherited)",
-				);
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
-				STRIP_INSTALLED_PRODUCT = NO;
-				SYMROOT = "${SRCROOT}/../build";
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
-		4E12CE88891C9234334EFBD74A106398 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = EA14BCA34B38E4C01C4F5E4A28D380BB /* KFSwiftImageLoader.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/KFSwiftImageLoader/KFSwiftImageLoader-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/KFSwiftImageLoader/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/KFSwiftImageLoader/KFSwiftImageLoader.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = KFSwiftImageLoader;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		596A9E6CFC1535367533E0490A2A7B13 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 89E059C097B1E5EBBCC05F67034BE7C4 /* REFrostedViewController.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/REFrostedViewController/REFrostedViewController-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/REFrostedViewController/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/REFrostedViewController/REFrostedViewController.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = REFrostedViewController;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		5E62115DE8C09934BF8D2FE5D15FED1E /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
 				COPY_PHASE_STRIP = NO;
 				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -1098,45 +916,19 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
 				STRIP_INSTALLED_PRODUCT = NO;
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Debug;
 		};
-		63F1973A630BFB1C71F75AE34135FD3C /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 89E059C097B1E5EBBCC05F67034BE7C4 /* REFrostedViewController.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/REFrostedViewController/REFrostedViewController-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/REFrostedViewController/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/REFrostedViewController/REFrostedViewController.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = REFrostedViewController;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		A4474F4BF89516A6E746D29B9E73DC03 /* Debug */ = {
+		192BC6DE5BEA473479C4A692ED706C81 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 94BEBEB384EFB1A48FF75DC8B60FD359 /* Cartography.xcconfig */;
 			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
 				CURRENT_PROJECT_VERSION = 1;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				DEFINES_MODULE = YES;
@@ -1156,17 +948,191 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
 		};
-		CC2D50A8787ADE30EF9E7F7BF8C26C9F /* Debug */ = {
+		35019EC0215619BB4CD3EE7256BA6752 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EA14BCA34B38E4C01C4F5E4A28D380BB /* KFSwiftImageLoader.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/KFSwiftImageLoader/KFSwiftImageLoader-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/KFSwiftImageLoader/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/KFSwiftImageLoader/KFSwiftImageLoader.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = KFSwiftImageLoader;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		62C67DAF26CB9C302BEF3263E285CD4F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7598E970F4BED22FC62B472CC2A2932B /* MKDropdownMenu.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/MKDropdownMenu/MKDropdownMenu-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MKDropdownMenu/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/MKDropdownMenu/MKDropdownMenu.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = MKDropdownMenu;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		862AF3139CD84E18D34FAF2F43CD0DA6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		91FBDFD65413F58F9308C272108B7CE9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 89E059C097B1E5EBBCC05F67034BE7C4 /* REFrostedViewController.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/REFrostedViewController/REFrostedViewController-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/REFrostedViewController/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/REFrostedViewController/REFrostedViewController.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = REFrostedViewController;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		98CA5A1098C66F891D83EB5E2C1E541B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A6742CD5BE4CBEFF758E037F1A9B954B /* Pods-ZhelAyaq.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-ZhelAyaq/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ZhelAyaq/Pods-ZhelAyaq.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_ZhelAyaq;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		9F3D87C3D93E5178A0129FF0610938FD /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 565E8D8F59BA680D847C6BB8FE4085C5 /* Pods-ZhelAyaq.debug.xcconfig */;
 			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
 				CURRENT_PROJECT_VERSION = 1;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				DEFINES_MODULE = YES;
@@ -1196,13 +1162,15 @@
 			};
 			name = Debug;
 		};
-		CCCED3CAFFF36A3D4FDF90B9EB16552A /* Release */ = {
+		B7018BA6942B3F91AB2804D06D1C128B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = EA14BCA34B38E4C01C4F5E4A28D380BB /* KFSwiftImageLoader.xcconfig */;
 			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
 				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEBUG_INFORMATION_FORMAT = dwarf;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
@@ -1215,21 +1183,89 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/KFSwiftImageLoader/KFSwiftImageLoader.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_ENABLE_DEBUG_INFO = YES;
 				PRODUCT_NAME = KFSwiftImageLoader;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B71C43E88296B6ECE374E81EA8232424 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 94BEBEB384EFB1A48FF75DC8B60FD359 /* Cartography.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Cartography/Cartography-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Cartography/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Cartography/Cartography.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = Cartography;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
 		};
-		DE0FC94CB35EEBFC8DD44C75C96D8297 /* Debug */ = {
+		CF1BD186DC30DC7362D2929E18EF803F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 89E059C097B1E5EBBCC05F67034BE7C4 /* REFrostedViewController.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/REFrostedViewController/REFrostedViewController-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/REFrostedViewController/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/REFrostedViewController/REFrostedViewController.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = REFrostedViewController;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		D399C56F261343662AB7544E84EE7A35 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 7598E970F4BED22FC62B472CC2A2932B /* MKDropdownMenu.xcconfig */;
 			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
 				CURRENT_PROJECT_VERSION = 1;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				DEFINES_MODULE = YES;
@@ -1248,6 +1284,7 @@
 				PRODUCT_NAME = MKDropdownMenu;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -1257,56 +1294,56 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		00107B69666FE4DFB7672D9236E60596 /* Build configuration list for PBXNativeTarget "REFrostedViewController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				91FBDFD65413F58F9308C272108B7CE9 /* Debug */,
+				CF1BD186DC30DC7362D2929E18EF803F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0C320110FFDCD52586F037F383DE386C /* Build configuration list for PBXNativeTarget "Cartography" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				192BC6DE5BEA473479C4A692ED706C81 /* Debug */,
+				B71C43E88296B6ECE374E81EA8232424 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				5E62115DE8C09934BF8D2FE5D15FED1E /* Debug */,
-				3FA451D268613890FA8A5A03801E11D5 /* Release */,
+				13E96A645A77DAD1FD4F541F18F5DDBF /* Debug */,
+				862AF3139CD84E18D34FAF2F43CD0DA6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		54290AB78D7E43995936AE50F716AD78 /* Build configuration list for PBXNativeTarget "REFrostedViewController" */ = {
+		7A30A1B4B5C64B7177D21E129C72A9D7 /* Build configuration list for PBXNativeTarget "MKDropdownMenu" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				596A9E6CFC1535367533E0490A2A7B13 /* Debug */,
-				63F1973A630BFB1C71F75AE34135FD3C /* Release */,
+				D399C56F261343662AB7544E84EE7A35 /* Debug */,
+				62C67DAF26CB9C302BEF3263E285CD4F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		B22DC939D187391042315573DBEE7623 /* Build configuration list for PBXNativeTarget "Cartography" */ = {
+		874D063D146AB8239714EC66F31AA235 /* Build configuration list for PBXNativeTarget "KFSwiftImageLoader" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				A4474F4BF89516A6E746D29B9E73DC03 /* Debug */,
-				1A79383A54B487E28E4C302C30B4220A /* Release */,
+				B7018BA6942B3F91AB2804D06D1C128B /* Debug */,
+				35019EC0215619BB4CD3EE7256BA6752 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D4F87DC32C244717B864F2144B2C86FC /* Build configuration list for PBXNativeTarget "MKDropdownMenu" */ = {
+		8A87BA27A2BFB6B9B78EEA44B7F2FE79 /* Build configuration list for PBXNativeTarget "Pods-ZhelAyaq" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				DE0FC94CB35EEBFC8DD44C75C96D8297 /* Debug */,
-				05955C2B1C5854C87CE164F16D185A98 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		E085512388290F90CB5D83BB8FA796D8 /* Build configuration list for PBXNativeTarget "Pods-ZhelAyaq" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				CC2D50A8787ADE30EF9E7F7BF8C26C9F /* Debug */,
-				229695D6A3518B2A88344F1745143A49 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		F0B868FB3A40A656D456F58119F42534 /* Build configuration list for PBXNativeTarget "KFSwiftImageLoader" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				4E12CE88891C9234334EFBD74A106398 /* Debug */,
-				CCCED3CAFFF36A3D4FDF90B9EB16552A /* Release */,
+				9F3D87C3D93E5178A0129FF0610938FD /* Debug */,
+				98CA5A1098C66F891D83EB5E2C1E541B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

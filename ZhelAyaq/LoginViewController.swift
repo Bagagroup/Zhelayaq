@@ -15,22 +15,22 @@ class LoginViewController: UIViewController {
     //111 all buttons
     let inputsConteinerView: UIView = {
         let view = UIView()
-        view.backgroundColor = UIColor.whiteColor()
+        view.backgroundColor = UIColor.white
         view.layer.cornerRadius = 5
         view.layer.masksToBounds = true
         return view
     }()
     lazy var loginEnterButton: UIButton = {
-        let button = UIButton(type:.System)
+        let button = UIButton(type:.system)
         button.backgroundColor = UIColor(red: 80/255, green: 101/255, blue: 161/255, alpha: 1)
-        button.setTitle("Войти", forState: .Normal)
-        button.setTitleColor(UIColor.whiteColor(), forState: .Normal)
-        button.titleLabel?.font = UIFont.boldSystemFontOfSize(16)
-        button.addTarget(self, action: #selector(pressedLogin), forControlEvents: .TouchUpInside)
+        button.setTitle("Войти", for: UIControlState())
+        button.setTitleColor(UIColor.white, for: UIControlState())
+        button.titleLabel?.font = UIFont.boldSystemFont(ofSize: 16)
+        button.addTarget(self, action: #selector(pressedLogin), for: .touchUpInside)
         return button
     }()
-    func pressedLogin (sender:UIButton) {
-        guard let _ = emailTextField.text, _ = passwordTextField.text
+    func pressedLogin (_ sender:UIButton) {
+        guard let _ = emailTextField.text, let _ = passwordTextField.text
             else { print("Form is not Valid")
                 return
         }
@@ -40,16 +40,16 @@ class LoginViewController: UIViewController {
     
     
     lazy var loginRegisterButton: UIButton = {
-        let button = UIButton(type:.System)
+        let button = UIButton(type:.system)
         button.backgroundColor = UIColor(red: 80/255, green: 101/255, blue: 161/255, alpha: 1)
-        button.setTitle("Register", forState: .Normal)
-        button.setTitleColor(UIColor.whiteColor(), forState: .Normal)
-        button.titleLabel?.font = UIFont.boldSystemFontOfSize(16)
-        button.addTarget(self, action: #selector(pressedRegister), forControlEvents: .TouchUpInside)
+        button.setTitle("Register", for: UIControlState())
+        button.setTitleColor(UIColor.white, for: UIControlState())
+        button.titleLabel?.font = UIFont.boldSystemFont(ofSize: 16)
+        button.addTarget(self, action: #selector(pressedRegister), for: .touchUpInside)
         return button
     }()
-    func pressedRegister (sender:UIButton) {
-        guard let _ = emailTextField.text, _ = passwordTextField.text
+    func pressedRegister (_ sender:UIButton) {
+        guard let _ = emailTextField.text, let _ = passwordTextField.text
             else { print("Form is not Valid")
                 return
         }
@@ -71,13 +71,13 @@ class LoginViewController: UIViewController {
     let passwordTextField: UITextField = {
         let textField = UITextField()
         textField.placeholder = "Password"
-        textField.secureTextEntry = true
+        textField.isSecureTextEntry = true
         return textField
     }()
     
     let separatorView: UIView = {
         let view = UIView()
-        view.backgroundColor = UIColor.blackColor()
+        view.backgroundColor = UIColor.black
         return view
     }()
     
@@ -143,12 +143,12 @@ class LoginViewController: UIViewController {
     
     
     //333 register User
-    func registerUserAsync(name: String, email:String, password:String) {
+    func registerUserAsync(_ name: String, email:String, password:String) {
         
         let user = BackendlessUser()
-        user.name = name
-        user.email = email
-        user.password = password
+        user.name = name as NSString!
+        user.email = email as NSString!
+        user.password = password as NSString!
         
         Backendless.sharedInstance().userService.registering(user, response: { (registeredUser : BackendlessUser!) -> () in
             print("User has been registered (ASYNC): \(registeredUser)")
@@ -161,7 +161,7 @@ class LoginViewController: UIViewController {
             }
         )
     }
-    func loginUserAsync(name: String, email:String, password:String) {
+    func loginUserAsync(_ name: String, email:String, password:String) {
         
         Backendless.sharedInstance().userService.login(email, password: password, response: { ( user : BackendlessUser!) -> () in
             
@@ -172,7 +172,7 @@ class LoginViewController: UIViewController {
             let homeViewController = UINavigationController(rootViewController: ViewController()) //создания navigationBar
             let menuViewController = MenuViewController()                                //swift файл ManuViewController
             let frostedViewController = REFrostedViewController(contentViewController: homeViewController, menuViewController: menuViewController)
-            let delegate = UIApplication.sharedApplication().delegate as! AppDelegate
+            let delegate = UIApplication.shared.delegate as! AppDelegate
             delegate.window?.rootViewController = frostedViewController
             },
                                                        

@@ -31,7 +31,7 @@ class DropdownMenu: UIViewController, MKDropdownMenuDataSource, MKDropdownMenuDe
 //
 //    }
     
-    private var dropTextField: UITextField!
+    fileprivate var dropTextField: UITextField!
     
     
     override func viewDidLoad() {
@@ -44,19 +44,19 @@ class DropdownMenu: UIViewController, MKDropdownMenuDataSource, MKDropdownMenuDe
           }
     
     //MKDropdownMenuDataSource datasource methods
-    func numberOfComponentsInDropdownMenu(dropdownMenu: MKDropdownMenu) -> Int {
+    func numberOfComponents(in dropdownMenu: MKDropdownMenu) -> Int {
         return 1
     }
     
-    func dropdownMenu(dropdownMenu: MKDropdownMenu, numberOfRowsInComponent component: Int) -> Int {
+    func dropdownMenu(_ dropdownMenu: MKDropdownMenu, numberOfRowsInComponent component: Int) -> Int {
         return self.dropmenu.count
     }
     
-    func dropdownMenu(dropdownMenu: MKDropdownMenu, didSelectRow row: Int, inComponent component: Int) {
+    func dropdownMenu(_ dropdownMenu: MKDropdownMenu, didSelectRow row: Int, inComponent component: Int) {
         dropTextField.text = dropmenu[row]
     }
     
-    func dropdownMenu(dropdownMenu: MKDropdownMenu, titleForRow row: Int, forComponent component: Int) -> String? {
+    func dropdownMenu(_ dropdownMenu: MKDropdownMenu, titleForRow row: Int, forComponent component: Int) -> String? {
         return dropmenu[row]
     }
 }

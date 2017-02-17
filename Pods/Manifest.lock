@@ -8,9 +8,9 @@ PODS:
 DEPENDENCIES:
   - Backendless
   - Cartography
-  - KFSwiftImageLoader (~> 2.0)
+  - KFSwiftImageLoader
   - MKDropdownMenu
-  - REFrostedViewController (~> 2.4)
+  - REFrostedViewController
 
 SPEC CHECKSUMS:
   Backendless: d906a34cac38dbdbfaed55c8c06689eefe6b8873
@@ -19,6 +19,6 @@ SPEC CHECKSUMS:
   MKDropdownMenu: 244eccf44965d52822395da7bdc7fb5ecd7d297c
   REFrostedViewController: a893b4979ba1f200c547aef9ff4c3fd5a18f5923
 
-PODFILE CHECKSUM: ac8b9adf6f089bd4f025adc15737fad5fd20ae32
+PODFILE CHECKSUM: 195cb25b4c3fdfe95526ab352447d7835623dc75
 
-COCOAPODS: 1.0.1
+COCOAPODS: 1.2.0

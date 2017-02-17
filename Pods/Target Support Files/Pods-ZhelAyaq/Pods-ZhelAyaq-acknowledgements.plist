@@ -15,6 +15,8 @@
 		<dict>
 			<key>FooterText</key>
 			<string>Copyright (c) 2012-2016 by Backendless.com</string>
+			<key>License</key>
+			<string>Apache</string>
 			<key>Title</key>
 			<string>Backendless</string>
 			<key>Type</key>
@@ -22,7 +24,7 @@
 		</dict>
 		<dict>
 			<key>FooterText</key>
-			<string>Copyright (c) 2014 Robert B&#246;hnke &lt;robb@robb.is&gt;
+			<string>Copyright (c) 2014 Robert Böhnke &lt;robb@robb.is&gt;
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -67,6 +69,8 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 THE SOFTWARE.
 </string>
+			<key>License</key>
+			<string>MIT</string>
 			<key>Title</key>
 			<string>Cartography</string>
 			<key>Type</key>
@@ -97,6 +101,8 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
 </string>
+			<key>License</key>
+			<string>MIT</string>
 			<key>Title</key>
 			<string>KFSwiftImageLoader</string>
 			<key>Type</key>
@@ -126,6 +132,8 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 </string>
+			<key>License</key>
+			<string>MIT</string>
 			<key>Title</key>
 			<string>MKDropdownMenu</string>
 			<key>Type</key>
@@ -152,6 +160,8 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 THE SOFTWARE.</string>
+			<key>License</key>
+			<string>MIT</string>
 			<key>Title</key>
 			<string>REFrostedViewController</string>
 			<key>Type</key>

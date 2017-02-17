@@ -24,7 +24,7 @@ class SneakCollectionViewCell: UICollectionViewCell {
     //222 - sneakers imageView
     lazy var profileImageView: UIImageView = {
         var imageView = UIImageView()
-        imageView.contentMode = .ScaleAspectFill
+        imageView.contentMode = .scaleAspectFill
         imageView.clipsToBounds = true
         imageView.image = UIImage(named:"images")
 
@@ -35,7 +35,7 @@ class SneakCollectionViewCell: UICollectionViewCell {
     
     override init(frame: CGRect) {
         super.init(frame: frame)
-        self.backgroundColor = UIColor.whiteColor()
+        self.backgroundColor = UIColor.white
         setupViews()
     }
     

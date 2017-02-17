@@ -6,9 +6,10 @@ target 'ZhelAyaq' do
   use_frameworks!
 
   # Pods for ZhelAyaq
-pod 'REFrostedViewController', '~> 2.4'
+pod 'REFrostedViewController'
 pod 'MKDropdownMenu'
 pod 'Backendless'
 pod 'Cartography'
-pod 'KFSwiftImageLoader', '~> 2.0'
+pod 'KFSwiftImageLoader'
+
 end
