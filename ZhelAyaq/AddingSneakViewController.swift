@@ -20,18 +20,18 @@ class AddingSneakViewController: UIViewController {
     
     
     //333 кнопка Back
-    private lazy var menuBarButton: UIBarButtonItem = {
+    fileprivate lazy var menuBarButton: UIBarButtonItem = {
         let barButton = UIBarButtonItem()
         barButton.title = "Back"
         barButton.target = self
-        barButton.action = #selector(MenuViewController.presentViewController(_:animated:completion:))
+//        barButton.action = #selector(MenuViewController.present(_:animated:completion:)(_:animated:completion:))
         return barButton
     }()
     
     //111 CollectionFlowLayout
     lazy var layout: UICollectionViewFlowLayout = {
         let layout = UICollectionViewFlowLayout()
-        layout.scrollDirection = .Horizontal                                 //вертикально двигался
+        layout.scrollDirection = .horizontal                                 //вертикально двигался
         layout.itemSize = CGSize(width: 150, height: 150)
       //  layout.minimumInteritemSpacing = 0
       //  layout.minimumLineSpacing = 0
@@ -42,7 +42,7 @@ class AddingSneakViewController: UIViewController {
    //222 UICollectionView  подключения к главной страничке collectionView
      lazy var collectionView: UICollectionView = {
         let collectionView = UICollectionView(frame: .zero, collectionViewLayout: self.layout)
-        collectionView.registerClass(addingSneakcell.self, forCellWithReuseIdentifier: identifierAddingSneak.self)    //? classForCoder
+        collectionView.register(addingSneakcell.self, forCellWithReuseIdentifier: identifierAddingSneak.self)    //? classForCoder
         collectionView.dataSource = self
         collectionView.delegate = self
         return collectionView
@@ -71,97 +71,97 @@ class AddingSneakViewController: UIViewController {
  */
     
     lazy var size36Button: UIButton = {
-        let button = UIButton(type:.System)
+        let button = UIButton(type:.system)
         button.backgroundColor = UIColor(red: 80/255, green: 101/255, blue: 161/255, alpha: 1)
-        button.setTitle("36", forState: .Normal)
-        button.setTitleColor(UIColor.whiteColor(), forState: .Normal)
-        button.titleLabel?.font = UIFont.boldSystemFontOfSize(16)
-        button.addTarget(self, action: #selector(pressedSizeButton), forControlEvents: .TouchUpInside)
+        button.setTitle("36", for: UIControlState())
+        button.setTitleColor(UIColor.white, for: UIControlState())
+        button.titleLabel?.font = UIFont.boldSystemFont(ofSize: 16)
+        button.addTarget(self, action: #selector(pressedSizeButton), for: .touchUpInside)
         return button
     }()
     lazy var size37Button: UIButton = {
-        let button = UIButton(type:.System)
+        let button = UIButton(type:.system)
         button.backgroundColor = UIColor(red: 80/255, green: 101/255, blue: 161/255, alpha: 1)
-        button.setTitle("37", forState: .Normal)
-        button.setTitleColor(UIColor.whiteColor(), forState: .Normal)
-        button.titleLabel?.font = UIFont.boldSystemFontOfSize(16)
-        button.addTarget(self, action: #selector(pressedSizeButton), forControlEvents: .TouchUpInside)
+        button.setTitle("37", for: UIControlState())
+        button.setTitleColor(UIColor.white, for: UIControlState())
+        button.titleLabel?.font = UIFont.boldSystemFont(ofSize: 16)
+        button.addTarget(self, action: #selector(pressedSizeButton), for: .touchUpInside)
         return button
     }()
     lazy var size38Button: UIButton = {
-        let button = UIButton(type:.System)
+        let button = UIButton(type:.system)
         button.backgroundColor = UIColor(red: 80/255, green: 101/255, blue: 161/255, alpha: 1)
-        button.setTitle("38", forState: .Normal)
-        button.setTitleColor(UIColor.whiteColor(), forState: .Normal)
-        button.titleLabel?.font = UIFont.boldSystemFontOfSize(16)
-        button.addTarget(self, action: #selector(pressedSizeButton), forControlEvents: .TouchUpInside)
+        button.setTitle("38", for: UIControlState())
+        button.setTitleColor(UIColor.white, for: UIControlState())
+        button.titleLabel?.font = UIFont.boldSystemFont(ofSize: 16)
+        button.addTarget(self, action: #selector(pressedSizeButton), for: .touchUpInside)
         return button
     }()
     lazy var size39Button: UIButton = {
-        let button = UIButton(type:.System)
+        let button = UIButton(type:.system)
         button.backgroundColor = UIColor(red: 80/255, green: 101/255, blue: 161/255, alpha: 1)
-        button.setTitle("39", forState: .Normal)
-        button.setTitleColor(UIColor.whiteColor(), forState: .Normal)
-        button.titleLabel?.font = UIFont.boldSystemFontOfSize(16)
-        button.addTarget(self, action: #selector(pressedSizeButton), forControlEvents: .TouchUpInside)
+        button.setTitle("39", for: UIControlState())
+        button.setTitleColor(UIColor.white, for: UIControlState())
+        button.titleLabel?.font = UIFont.boldSystemFont(ofSize: 16)
+        button.addTarget(self, action: #selector(pressedSizeButton), for: .touchUpInside)
         return button
     }()
     lazy var size40Button: UIButton = {
-        let button = UIButton(type:.System)
-        button.backgroundColor = UIColor.whiteColor()
-        button.setTitle("40", forState: .Normal)
-        button.setTitleColor(UIColor.whiteColor(), forState: .Normal)
-        button.titleLabel?.font = UIFont.boldSystemFontOfSize(16)
-        button.addTarget(self, action: #selector(pressedSizeButton), forControlEvents: .TouchUpInside)
+        let button = UIButton(type:.system)
+        button.backgroundColor = UIColor.white
+        button.setTitle("40", for: UIControlState())
+        button.setTitleColor(UIColor.white, for: UIControlState())
+        button.titleLabel?.font = UIFont.boldSystemFont(ofSize: 16)
+        button.addTarget(self, action: #selector(pressedSizeButton), for: .touchUpInside)
         return button
     }()
     lazy var size41Button: UIButton = {
-        let button = UIButton(type:.System)
+        let button = UIButton(type:.system)
         button.backgroundColor = UIColor(red: 80/255, green: 101/255, blue: 161/255, alpha: 1)
-        button.setTitle("41", forState: .Normal)
-        button.setTitleColor(UIColor.whiteColor(), forState: .Normal)
-        button.titleLabel?.font = UIFont.boldSystemFontOfSize(16)
-        button.addTarget(self, action: #selector(pressedSizeButton), forControlEvents: .TouchUpInside)
+        button.setTitle("41", for: UIControlState())
+        button.setTitleColor(UIColor.white, for: UIControlState())
+        button.titleLabel?.font = UIFont.boldSystemFont(ofSize: 16)
+        button.addTarget(self, action: #selector(pressedSizeButton), for: .touchUpInside)
         return button
     }()
     lazy var size42Button: UIButton = {
-        let button = UIButton(type:.System)
+        let button = UIButton(type:.system)
         button.backgroundColor = UIColor(red: 80/255, green: 101/255, blue: 161/255, alpha: 1)
-        button.setTitle("42", forState: .Normal)
-        button.setTitleColor(UIColor.whiteColor(), forState: .Normal)
-        button.titleLabel?.font = UIFont.boldSystemFontOfSize(16)
-        button.addTarget(self, action: #selector(pressedSizeButton), forControlEvents: .TouchUpInside)
+        button.setTitle("42", for: UIControlState())
+        button.setTitleColor(UIColor.white, for: UIControlState())
+        button.titleLabel?.font = UIFont.boldSystemFont(ofSize: 16)
+        button.addTarget(self, action: #selector(pressedSizeButton), for: .touchUpInside)
         return button
     }()
     lazy var size43Button: UIButton = {
-        let button = UIButton(type:.System)
+        let button = UIButton(type:.system)
         button.backgroundColor = UIColor(red: 80/255, green: 101/255, blue: 161/255, alpha: 1)
-        button.setTitle("43", forState: .Normal)
-        button.setTitleColor(UIColor.whiteColor(), forState: .Normal)
-        button.titleLabel?.font = UIFont.boldSystemFontOfSize(16)
-        button.addTarget(self, action: #selector(pressedSizeButton), forControlEvents: .TouchUpInside)
+        button.setTitle("43", for: UIControlState())
+        button.setTitleColor(UIColor.white, for: UIControlState())
+        button.titleLabel?.font = UIFont.boldSystemFont(ofSize: 16)
+        button.addTarget(self, action: #selector(pressedSizeButton), for: .touchUpInside)
         return button
     }()
     lazy var size44Button: UIButton = {
-        let button = UIButton(type:.System)
+        let button = UIButton(type:.system)
         button.backgroundColor = UIColor(red: 80/255, green: 101/255, blue: 161/255, alpha: 1)
-        button.setTitle("44", forState: .Normal)
-        button.setTitleColor(UIColor.whiteColor(), forState: .Normal)
-        button.titleLabel?.font = UIFont.boldSystemFontOfSize(16)
-        button.addTarget(self, action: #selector(pressedSizeButton), forControlEvents: .TouchUpInside)
+        button.setTitle("44", for: UIControlState())
+        button.setTitleColor(UIColor.white, for: UIControlState())
+        button.titleLabel?.font = UIFont.boldSystemFont(ofSize: 16)
+        button.addTarget(self, action: #selector(pressedSizeButton), for: .touchUpInside)
         return button
     }()
     lazy var size45Button: UIButton = {
-        let button = UIButton(type:.System)
-        button.backgroundColor = UIColor.whiteColor()
-        button.setTitle("45", forState: .Normal)
-        button.setTitleColor(UIColor.whiteColor(), forState: .Normal)
-        button.titleLabel?.font = UIFont.boldSystemFontOfSize(16)
-        button.addTarget(self, action: #selector(pressedSizeButton), forControlEvents: .TouchUpInside)
+        let button = UIButton(type:.system)
+        button.backgroundColor = UIColor.white
+        button.setTitle("45", for: UIControlState())
+        button.setTitleColor(UIColor.white, for: UIControlState())
+        button.titleLabel?.font = UIFont.boldSystemFont(ofSize: 16)
+        button.addTarget(self, action: #selector(pressedSizeButton), for: .touchUpInside)
         return button
     }()
     
-    func pressedSizeButton (sender:UIButton) {
+    func pressedSizeButton (_ sender:UIButton) {
         
     }
 
@@ -291,7 +291,7 @@ class addingSneakcell: UICollectionViewCell {
 
     lazy var imageView: UIImageView = {
         let imageView = UIImageView()
-        imageView.contentMode = .ScaleAspectFill
+        imageView.contentMode = .scaleAspectFill
         imageView.clipsToBounds = true
         return imageView
     }()
@@ -320,52 +320,52 @@ class addingSneakcell: UICollectionViewCell {
 var imageList: [UIImage] = []
 
 extension AddingSneakViewController: UICollectionViewDataSource, UICollectionViewDelegate {
-    func collectionView(collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
+    func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
         return imageList.count + 1
     }
-    func collectionView(collectionView: UICollectionView, cellForItemAtIndexPath indexPath: NSIndexPath) -> UICollectionViewCell {
+    func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
         
-        let cell = collectionView.dequeueReusableCellWithReuseIdentifier(identifierAddingSneak, forIndexPath: indexPath) as! addingSneakcell
+        let cell = collectionView.dequeueReusableCell(withReuseIdentifier: identifierAddingSneak, for: indexPath) as! addingSneakcell
         
         cell.imageView.image = UIImage (named:"photoAdd")
         
         if indexPath.row < imageList.count {
             cell.imageView.image = imageList[indexPath.row]
         }
-        cell.backgroundColor = .whiteColor()
-        cell.contentView.backgroundColor = .whiteColor()
+        cell.backgroundColor = .white
+        cell.contentView.backgroundColor = .white
         
     
         
         return cell
     }
-    func collectionView(collectionView: UICollectionView, didSelectItemAtIndexPath indexPath: NSIndexPath) {
+    func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
         if indexPath.row >= imageList.count {
             let imagePicker = UIImagePickerController()
-            imagePicker.sourceType = .PhotoLibrary
+            imagePicker.sourceType = .photoLibrary
             imagePicker.delegate = self
-            self.presentViewController(imagePicker, animated: true, completion: nil)
+            self.present(imagePicker, animated: true, completion: nil)
         }
     }
 }
 extension AddingSneakViewController: UINavigationControllerDelegate, UIImagePickerControllerDelegate {
     
-    func imagePickerController(picker: UIImagePickerController, didFinishPickingMediaWithInfo info: [String : AnyObject]){
+    func imagePickerController(_ picker: UIImagePickerController, didFinishPickingMediaWithInfo info: [String : Any]){
         if let image = info[UIImagePickerControllerOriginalImage] as? UIImage {
           imageList.append(image)
             
          let data = UIImageJPEGRepresentation(image, 0.5)
             
-         let fileName = "\(Backendless.sharedInstance().userService.currentUser.objectId)\(NSDate().timeIntervalSince1970).jpeg"
+         let fileName = "\(Backendless.sharedInstance().userService.currentUser.objectId)\(Date().timeIntervalSince1970).jpeg"
             
-         Backendless.sharedInstance().fileService.upload(fileName, content: data, response: { (file: BackendlessFile!) in
+         Backendless.sharedInstance().fileService.upload(fileName, content: data, response: { (file: BackendlessFile?) in
                 //code
-                print("file url: \(file.fileURL)")
+                print("file url: \(file?.fileURL)")
                 
-                self.saveUserAsync(file.fileURL)          //передаем вниз saveUserAsync
+                self.saveUserAsync((file?.fileURL)!)          //передаем вниз saveUserAsync
                 
                 })
-            { (error: Fault!) in
+            { (error: Fault?) in
                 print("Server error \(error)")
             }
             
@@ -373,27 +373,27 @@ extension AddingSneakViewController: UINavigationControllerDelegate, UIImagePick
             
         }
         collectionView.reloadData()
-        picker.dismissViewControllerAnimated(true, completion: nil)
+        picker.dismiss(animated: true, completion: nil)
        
        
     }
-    func imagePickerControllerDidCancel(picker: UIImagePickerController){
-        picker.dismissViewControllerAnimated(true, completion: nil)
+    func imagePickerControllerDidCancel(_ picker: UIImagePickerController){
+        picker.dismiss(animated: true, completion: nil)
     }
-    func saveUserAsync (imageUrl: String) {                     //сохраяем данные user
+    func saveUserAsync (_ imageUrl: String) {                     //сохраяем данные user
         let user = Backendless.sharedInstance().userService.currentUser       //пока локально
-        user.setProperty("profileUrl", object: imageUrl)
+        user?.setProperty("profileUrl", object: imageUrl)
         
         let dataStore = Backendless.sharedInstance().data.of(BackendlessUser.ofClass())  //сохраняем в Backendless
-        dataStore.save(user, response: { (result: AnyObject!) in                     //в result ? что передается
-            let object = result as! BackendlessUser                                  //конв. в Backendless
-            print("user has been updated\(object.objectId)")
-            
-            // self.performSegueWithIdentifier("SegueFeed", sender: nil)
-            
-        }) { (error: Fault!) in
-            print("Server error \(error)")
-        }
+//        dataStore.save(user, response: { (result: AnyObject?) -> Void in                     //в result ? что передается
+//            let object = result as! BackendlessUser                                  //конв. в Backendless
+//            print("user has been updated\(object.objectId)")
+//            
+//            // self.performSegueWithIdentifier("SegueFeed", sender: nil)
+//            
+//        }) { (error: Fault!) in
+//            print("Server error \(error)")
+//        }
     }
 
 }

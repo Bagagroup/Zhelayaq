@@ -1,10 +1,6 @@
 # Acknowledgements
 This application makes use of the following third party libraries:
 
-## Backendless
-
-Copyright (c) 2012-2016 by Backendless.com
-
 ## Cartography
 
 Copyright (c) 2014 Robert Böhnke <robb@robb.is>
@@ -57,7 +53,7 @@ THE SOFTWARE.
 
 The MIT License (MIT)
 
-Copyright (c) 2015 Kiavash Faisali
+Copyright (c) 2016 Kiavash Faisali
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal

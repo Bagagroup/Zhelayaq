@@ -16,9 +16,9 @@ class ViewController: UIViewController {
     
     
     //111 UICollectionView создания layout of collectionView, отвечает за вид ячейки
-    private lazy var layout: UICollectionViewFlowLayout = {
+    fileprivate lazy var layout: UICollectionViewFlowLayout = {
         let layout = UICollectionViewFlowLayout()
-        layout.scrollDirection = .Vertical                                 //вертикально двигался
+        layout.scrollDirection = .vertical                                 //вертикально двигался
         layout.itemSize = CGSize(width: self.view.frame.width, height: 200)
         layout.minimumInteritemSpacing = 0
         layout.minimumLineSpacing = 0
@@ -27,9 +27,9 @@ class ViewController: UIViewController {
     
     
     //222 UICollectionView  подключения к главной страничке collectionView
-    private lazy var collectionView: UICollectionView = {
+    fileprivate lazy var collectionView: UICollectionView = {
         let collectionView = UICollectionView(frame: self.view.frame, collectionViewLayout: self.layout)
-        collectionView.registerClass(ProducerCollectionViewCell.classForCoder(), forCellWithReuseIdentifier: identifier)
+        collectionView.register(ProducerCollectionViewCell.classForCoder(), forCellWithReuseIdentifier: identifier)
         collectionView.dataSource = self
         return collectionView
     }()
@@ -37,7 +37,7 @@ class ViewController: UIViewController {
     
     
     //333 кнопка Menu for REFrostedViewController
-    private lazy var menuBarButton: UIBarButtonItem = {
+    fileprivate lazy var menuBarButton: UIBarButtonItem = {
         let barButton = UIBarButtonItem()
         barButton.title = "Menu"
         barButton.target = self.frostedViewController
@@ -71,12 +71,12 @@ class ViewController: UIViewController {
 
 //666 UICollectionView - dataSource methods, для отображения ячейек в форме таблице
 extension ViewController: UICollectionViewDataSource {
-    func collectionView(collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
+    func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
         return producerList.count
     }
-    func collectionView(collectionView: UICollectionView, cellForItemAtIndexPath indexPath: NSIndexPath) -> UICollectionViewCell {
-        let cell = collectionView.dequeueReusableCellWithReuseIdentifier(identifier, forIndexPath: indexPath)
-        cell.backgroundColor = [.redColor(), .blueColor(), .yellowColor()][indexPath.row % 3]
+    func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
+        let cell = collectionView.dequeueReusableCell(withReuseIdentifier: identifier, for: indexPath)
+        cell.backgroundColor = [.red, .blue, .yellow][indexPath.row % 3]
         return cell
     }
 }

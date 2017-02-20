@@ -12,12 +12,12 @@ import Cartography
 class MenuViewController: UIViewController {
     
     //111 logo
-    private var logoImageView: UIImageView {
+    fileprivate var logoImageView: UIImageView {
         let imageView = UIImageView()
-        imageView.frame = CGRectMake(140, 70, 150, 150)
+        imageView.frame = CGRect(x: 140, y: 70, width: 150, height: 150)
         imageView.layer.masksToBounds = true
         imageView.layer.cornerRadius = 75
-        imageView.backgroundColor = .redColor()
+        imageView.backgroundColor = .red
         imageView.translatesAutoresizingMaskIntoConstraints = false
         return imageView
     }
@@ -26,16 +26,16 @@ class MenuViewController: UIViewController {
     //222 enter Button
     lazy var loginViewButton: UIButton = {
         let viewButton = UIButton()
-        viewButton.setTitle("Войти", forState: UIControlState.Normal)
+        viewButton.setTitle("Войти", for: UIControlState())
         viewButton.translatesAutoresizingMaskIntoConstraints = false
-        viewButton.addTarget(self, action: #selector(transition(_:)), forControlEvents: .TouchUpInside)
+        viewButton.addTarget(self, action: #selector(transition(_:)), for: .touchUpInside)
         return viewButton
     }()
     //333 переход в LoginViewCOntroller
-    func transition(Sender: UIButton!)
+    func transition(_ Sender: UIButton!)
     {
         let loginViewController = LoginViewController()
-        let delegate = UIApplication.sharedApplication().delegate as! AppDelegate
+        let delegate = UIApplication.shared.delegate as! AppDelegate
         delegate.window?.rootViewController = loginViewController
     }
     
@@ -43,16 +43,16 @@ class MenuViewController: UIViewController {
     //444 My advirtisement admin panel
     lazy var myAddingButton: UIButton = {
         let button = UIButton()
-        button.setTitle("Мои объявления", forState: UIControlState.Normal)
+        button.setTitle("Мои объявления", for: UIControlState())
         button.translatesAutoresizingMaskIntoConstraints = false
-        button.addTarget(self, action: #selector(transitionMyAdvertisment(_:)), forControlEvents: .TouchUpInside)
+        button.addTarget(self, action: #selector(transitionMyAdvertisment(_:)), for: .touchUpInside)
         return button
     }()
     //555 переход в myAdvirtisementViewController
-    func transitionMyAdvertisment(Sender: UIButton!)
+    func transitionMyAdvertisment(_ Sender: UIButton!)
     {
         let loginViewController = LoginViewController()
-        let delegate = UIApplication.sharedApplication().delegate as! AppDelegate
+        let delegate = UIApplication.shared.delegate as! AppDelegate
         delegate.window?.rootViewController = loginViewController
     }
 
@@ -60,16 +60,16 @@ class MenuViewController: UIViewController {
     //222 adding Button
     lazy var addingAdvertiseButton: UIButton = {
         let addButton = UIButton()
-        addButton.setTitle("Добавить", forState: UIControlState.Normal)
+        addButton.setTitle("Добавить", for: UIControlState())
         addButton.translatesAutoresizingMaskIntoConstraints = false
-        addButton.addTarget(self, action: #selector(transitionAddSneaker(_:)), forControlEvents: .TouchUpInside)
+        addButton.addTarget(self, action: #selector(transitionAddSneaker(_:)), for: .touchUpInside)
         return addButton
     }()
     //333 переход в AddingSneakViewController
-    func transitionAddSneaker(Sender: UIButton!)
+    func transitionAddSneaker(_ Sender: UIButton!)
     {
         let loginViewController = AddingSneakViewController()
-        let delegate = UIApplication.sharedApplication().delegate as! AppDelegate
+        let delegate = UIApplication.shared.delegate as! AppDelegate
         delegate.window?.rootViewController = loginViewController
     }
 
@@ -77,13 +77,13 @@ class MenuViewController: UIViewController {
     //444 выход
     func handleLogout() {
         let loginController = LoginViewController()
-        presentViewController(loginController, animated: true, completion: nil)
+        present(loginController, animated: true, completion: nil)
     }
 
     //555 message Button
-    private var messageViewButton: UIButton = {
+    fileprivate var messageViewButton: UIButton = {
         let messageButton = UIButton()
-        messageButton.setTitle("Сообщения", forState: UIControlState.Normal)
+        messageButton.setTitle("Сообщения", for: UIControlState())
         messageButton.translatesAutoresizingMaskIntoConstraints = false
         return messageButton
     }()
@@ -91,7 +91,7 @@ class MenuViewController: UIViewController {
     //666 likes Button
     lazy var likesViewButton: UIButton = {
         let likeButton = UIButton()
-        likeButton.setTitle("Понравивщиеся", forState: UIControlState.Normal)
+        likeButton.setTitle("Понравивщиеся", for: UIControlState())
         likeButton.translatesAutoresizingMaskIntoConstraints = false
         return likeButton
     }()
@@ -100,16 +100,16 @@ class MenuViewController: UIViewController {
     // storyofpayment
     lazy var storyofPaymentButton: UIButton = {
         let storyButton = UIButton()
-        storyButton.setTitle("История покупок", forState: UIControlState.Normal)
+        storyButton.setTitle("История покупок", for: UIControlState())
         storyButton.translatesAutoresizingMaskIntoConstraints = false
-        storyButton.addTarget(self, action: #selector(transitionStoryofPayment(_:)), forControlEvents: .TouchUpInside)
+        storyButton.addTarget(self, action: #selector(transitionStoryofPayment(_:)), for: .touchUpInside)
         return storyButton
     }()
     //333 переход в storyofPaymentViewController
-    func transitionStoryofPayment(Sender: UIButton!)
+    func transitionStoryofPayment(_ Sender: UIButton!)
     {
         let loginViewController = AddingSneakViewController()
-        let delegate = UIApplication.sharedApplication().delegate as! AppDelegate
+        let delegate = UIApplication.shared.delegate as! AppDelegate
         delegate.window?.rootViewController = loginViewController
     }
     
@@ -117,15 +117,15 @@ class MenuViewController: UIViewController {
     //777 about App Button
     lazy var aboutAppViewButton: UIButton = {
         let aboutAppButton = UIButton()
-        aboutAppButton.setTitle("О приложении", forState: UIControlState.Normal)
-        aboutAppButton.titleLabel?.font = UIFont.boldSystemFontOfSize(12)
+        aboutAppButton.setTitle("О приложении", for: UIControlState())
+        aboutAppButton.titleLabel?.font = UIFont.boldSystemFont(ofSize: 12)
         return aboutAppButton
     }()
 
     lazy var setViewButton: UIButton = {
         let setButton = UIButton()
-        setButton.setTitle("Настройки", forState: UIControlState.Normal)
-        setButton.titleLabel?.font = UIFont.boldSystemFontOfSize(12)
+        setButton.setTitle("Настройки", for: UIControlState())
+        setButton.titleLabel?.font = UIFont.boldSystemFont(ofSize: 12)
         return setButton
     }()
 
@@ -189,7 +189,7 @@ class MenuViewController: UIViewController {
             setViewButton.left == setViewButton.superview!.left + 10
         }
         
-        UIView.animateWithDuration(0.5, animations: loginViewButton.layoutIfNeeded)
+        UIView.animate(withDuration: 0.5, animations: loginViewButton.layoutIfNeeded)
     }
 }
 

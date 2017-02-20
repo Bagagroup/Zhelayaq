@@ -24,7 +24,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     var window: UIWindow?
 
 //REFrostedViewController
-    func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
+    func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         
         let homeViewController = UINavigationController(rootViewController: ViewController()) //создания navigationBar
         let menuViewController = MenuViewController()                                //swift файл ManuViewController
@@ -33,17 +33,17 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
      
         let backViewController = UINavigationController(rootViewController: AddingSneakViewController())
         
-        window = UIWindow(frame: UIScreen.mainScreen().bounds)
-        window?.backgroundColor = .whiteColor()
+        window = UIWindow(frame: UIScreen.main.bounds)
+        window?.backgroundColor = .white
         window?.makeKeyAndVisible()
         window?.rootViewController = frostedViewController
         
        
-        application.statusBarStyle = .LightContent
+        application.statusBarStyle = .lightContent
         
         UINavigationBar.appearance().tintColor = UIColor(red: 51/125, green: 90/255, blue: 149/255, alpha: 1)
         
-        backendless.initApp(APP_ID, secret:SECRET_KEY, version:VERSION_NUM)
+        backendless?.initApp(APP_ID, secret:SECRET_KEY, version:VERSION_NUM)
         
         return true
     }
